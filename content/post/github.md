@@ -23,6 +23,8 @@ git remote add origin https://github.com/CongliYin/CSS.git
 如果出现错误：fatal: remote origin already exists，则执行以下语句：
 git remote rm origin
 git push origin master
+如果出现错误，则
+git pull origin master
 
 git add .
 git commit -m "all"
