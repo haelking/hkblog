@@ -6,35 +6,38 @@ tags: ["hugo"]
 series: ["Editor"]
 categories: ["Hugo"]
 ---
-# 做个记录
+# 做个懒笔记
 <!--more-->
+## 安装hugo最新版
 https://github.com/gohugoio/hugo/releases
-下载最新版本
 sudo dpkg -i *.deb
 如果出错
 执行
 sudo apt install -f
-
-再安装 git
+## 安装git
 apt install git
 
-hugo new site test.example.com
-cd test.example.com
- hugo new about.md
+## 建立网站
+hugo new site /var/www/hkblog
+cd /var/www/hkblog
+
+## 建立两个帖子试试
+```
+hugo new about.md
 
 nano content/about.md
 
-增加：
+增加内容如下：
 ---
 title: "About"
 date: 2019-09-10T06:57:08Z
 draft: false
 ---
 
-
 hugo new post/first.md
 nano content/post/first.md
-增加：
+
+增加内容如下：
 
 ---
 title: "First"
@@ -46,15 +49,19 @@ draft: false
 
 Hi How are you!
 
-
 I am hitesh jethva working as a technical writer.
+```
 
-
+## 安装主题
+```
 cd themes
 wget https://github.com/digitalcraftsman/hugo-strata-theme/archive/master.zip
 unzip master.zip
 cat hugo-strata-theme/exampleSite/config.toml > ../config.toml
-
+```
+### 配置主题
+1. config.toml
+```
 nano ../config.toml
 
 baseurl = "/"
@@ -63,7 +70,9 @@ baseurl = "/"
   name = "About"
   url  = "about"
   weight = 5
-
+```
+2. index.html layout
+```
 nano /root/test.example.com/layouts/index.html
 
 {{ define "main" }}
@@ -83,14 +92,28 @@ nano /root/test.example.com/layouts/index.html
                 {{ partial "contact" . }}
         {{ end }}
 {{ end }}
-
-
-cd ../test.example.com
- hugo
-
-/etc/caddy/Caddy 文件里增加xxx.com配置I注意路径是public文件夹)
-
-一定要
+```
+## 生成网站
+```
+cd /var/www/hkblog
+hugo
+```
+## 配置caddy
+```
+nano /etc/caddy/Caddy 
+增加以下内容：
+hkblog.201682.xyz
+{
+	gzip
+	root /var/www/hkblog/public
+	tls hael.wang@gmail.com
+}
+```
+当然事先要把域名指向VPS的IP
+然后重启caddy服务器
+同时要把blog的文件夹更改用户为www-data
+```
 chown www-data:www-data /var/www/xxx.com
 
-https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/
+```
+[^1]:部分内容引用，感谢。https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/

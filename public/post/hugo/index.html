@@ -23,7 +23,7 @@ hugo安装
 
 
 <meta property="og:title" content="hugo安装" />
-<meta property="og:description" content="做个记录" />
+<meta property="og:description" content="做个懒笔记" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/hugo/" />
 <meta property="article:published_time" content="2020-04-30T23:55:27+08:00" />
@@ -34,7 +34,7 @@ hugo安装
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="hugo安装"/>
-<meta name="twitter:description" content="做个记录"/>
+<meta name="twitter:description" content="做个懒笔记"/>
 
 
 <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -90,67 +90,103 @@ hugo安装
           <div class="sub header">@ Henry King · Thursday, Apr 30, 2020 · 1 minute read · Update at Apr 30, 2020</div>
         </h2>
       </header>
-      <article style="margin-top: 2rem;"><h1 id="做个记录">做个记录</h1>
+      <article style="margin-top: 2rem;"><h1 id="做个懒笔记">做个懒笔记</h1>
+<h2 id="安装hugo最新版">安装hugo最新版</h2>
 <p><a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>
-下载最新版本
 sudo dpkg -i *.deb
 如果出错
 执行
 sudo apt install -f</p>
-<p>再安装 git
-apt install git</p>
-<p>hugo new site test.example.com
-cd test.example.com
-hugo new about.md</p>
-<p>nano content/about.md</p>
-<h2 id="增加">增加：</h2>
-<h2 id="draft-false">title: &ldquo;About&rdquo;
+<h2 id="安装git">安装git</h2>
+<p>apt install git</p>
+<h2 id="建立网站">建立网站</h2>
+<p>hugo new site /var/www/hkblog
+cd /var/www/hkblog</p>
+<h2 id="建立两个帖子试试">建立两个帖子试试</h2>
+<pre><code>hugo new about.md
+
+nano content/about.md
+
+增加内容如下：
+---
+title: &quot;About&quot;
 date: 2019-09-10T06:57:08Z
-draft: false</h2>
-<p>hugo new post/first.md
+draft: false
+---
+
+hugo new post/first.md
 nano content/post/first.md
-增加：</p>
-<hr>
-<h2 id="draft-false-1">title: &ldquo;First&rdquo;
+
+增加内容如下：
+
+---
+title: &quot;First&quot;
 date: 2019-09-10T06:58:51Z
-draft: false</h2>
-<h2 id="this-is-my-first-blog-post">This is my first blog post</h2>
-<p>Hi How are you!</p>
-<p>I am hitesh jethva working as a technical writer.</p>
-<p>cd themes
-wget <a href="https://github.com/digitalcraftsman/hugo-strata-theme/archive/master.zip">https://github.com/digitalcraftsman/hugo-strata-theme/archive/master.zip</a>
+draft: false
+---
+
+## This is my first blog post
+
+Hi How are you!
+
+I am hitesh jethva working as a technical writer.
+</code></pre><h2 id="安装主题">安装主题</h2>
+<pre><code>cd themes
+wget https://github.com/digitalcraftsman/hugo-strata-theme/archive/master.zip
 unzip master.zip
-cat hugo-strata-theme/exampleSite/config.toml &gt; ../config.toml</p>
-<p>nano ../config.toml</p>
-<p>baseurl = &ldquo;/&rdquo;</p>
-<p>[[menu.main]]
-name = &ldquo;About&rdquo;
-url  = &ldquo;about&rdquo;
-weight = 5</p>
-<p>nano /root/test.example.com/layouts/index.html</p>
-<p>{{ define &ldquo;main&rdquo; }}
-{{ if not .Site.Params.about.hide }}
-{{ partial &ldquo;about&rdquo; . }}
-{{ end }}</p>
-<pre><code>    {{ if not .Site.Params.portfolio.hide }}
-            {{ partial &quot;portfolio&quot; . }}
-    {{ end }}
+cat hugo-strata-theme/exampleSite/config.toml &gt; ../config.toml
+</code></pre><h3 id="配置主题">配置主题</h3>
+<ol>
+<li>config.toml</li>
+</ol>
+<pre><code>nano ../config.toml
 
-    {{ if not .Site.Params.recentposts.hide }}
-            {{ partial &quot;recent-posts&quot; . }}
-    {{ end }}
+baseurl = &quot;/&quot;
 
-    {{ if not .Site.Params.contact.hide }}
-            {{ partial &quot;contact&quot; . }}
-    {{ end }}
-</code></pre>
-<p>{{ end }}</p>
-<p>cd ../test.example.com
-hugo</p>
-<p>/etc/caddy/Caddy 文件里增加xxx.com配置I注意路径是public文件夹)</p>
-<p>一定要
-chown www-data:www-data /var/www/xxx.com</p>
-<p><a href="https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/">https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/</a></p></article>
+ [[menu.main]]
+  name = &quot;About&quot;
+  url  = &quot;about&quot;
+  weight = 5
+</code></pre><ol start="2">
+<li>index.html layout</li>
+</ol>
+<pre><code>nano /root/test.example.com/layouts/index.html
+
+{{ define &quot;main&quot; }}
+        {{ if not .Site.Params.about.hide }}
+                {{ partial &quot;about&quot; . }}
+        {{ end }}
+
+        {{ if not .Site.Params.portfolio.hide }}
+                {{ partial &quot;portfolio&quot; . }}
+        {{ end }}
+
+        {{ if not .Site.Params.recentposts.hide }}
+                {{ partial &quot;recent-posts&quot; . }}
+        {{ end }}
+
+        {{ if not .Site.Params.contact.hide }}
+                {{ partial &quot;contact&quot; . }}
+        {{ end }}
+{{ end }}
+</code></pre><h2 id="生成网站">生成网站</h2>
+<pre><code>cd /var/www/hkblog
+hugo
+</code></pre><h2 id="配置caddy">配置caddy</h2>
+<pre><code>nano /etc/caddy/Caddy 
+增加以下内容：
+hkblog.201682.xyz
+{
+	gzip
+	root /var/www/hkblog/public
+	tls hael.wang@gmail.com
+}
+</code></pre><p>当然事先要把域名指向VPS的IP
+然后重启caddy服务器
+同时要把blog的文件夹更改用户为www-data</p>
+<pre><code>chown www-data:www-data /var/www/xxx.com
+
+</code></pre></article>
     </section>
 
     <footer class="ui attached segment dream-tags">

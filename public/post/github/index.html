@@ -23,7 +23,7 @@ Github
 
 
 <meta property="og:title" content="Github" />
-<meta property="og:description" content="Github基本操作 apt install git 添加ssh 增加repositories 设置 git config -l git config user.name J_mailbox git config user.email J_mailbox@163.com //配置本地 git remote add origin https://github.com/CongliYin/CSS.git 如果出现错误：fatal: remote origin already exists，则执行以下语句： git remote rm origin git push origin master 如果出现错误，则 git pull origin master git add . git commit -m &quot;all&quot; git push " />
+<meta property="og:description" content="Github基本操作 安装 Github网站： 同时登陆github，添加ssh 增加repositories VPS上： apt install git git config user.name &quot;haelking&quot; git config user.email &quot;xxx.@xxx.com git remote add origin https://github.com/haelking/hkblog.git 如果出现错误：fatal: remote origin already exists，则执行以下语句： git remote rm origin git push origin master 如果出现错误，则 git pull origin master ## push cd /var/www/hkblog git add . git commit -m &quot;all&quot; git push " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/github/" />
 
@@ -33,7 +33,7 @@ Github
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Github"/>
-<meta name="twitter:description" content="Github基本操作 apt install git 添加ssh 增加repositories 设置 git config -l git config user.name J_mailbox git config user.email J_mailbox@163.com //配置本地 git remote add origin https://github.com/CongliYin/CSS.git 如果出现错误：fatal: remote origin already exists，则执行以下语句： git remote rm origin git push origin master 如果出现错误，则 git pull origin master git add . git commit -m &quot;all&quot; git push "/>
+<meta name="twitter:description" content="Github基本操作 安装 Github网站： 同时登陆github，添加ssh 增加repositories VPS上： apt install git git config user.name &quot;haelking&quot; git config user.email &quot;xxx.@xxx.com git remote add origin https://github.com/haelking/hkblog.git 如果出现错误：fatal: remote origin already exists，则执行以下语句： git remote rm origin git push origin master 如果出现错误，则 git pull origin master ## push cd /var/www/hkblog git add . git commit -m &quot;all&quot; git push "/>
 
 
 <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -90,22 +90,24 @@ Github
         </h2>
       </header>
       <article style="margin-top: 2rem;"><h1 id="github基本操作">Github基本操作</h1>
-<pre><code>apt install git
-添加ssh
+<h2 id="安装">安装</h2>
+<pre><code>Github网站：
+同时登陆github，添加ssh
 增加repositories
-设置
-git config -l
-git config user.name J_mailbox
-git config user.email J_mailbox@163.com //配置本地
 
-git remote add origin https://github.com/CongliYin/CSS.git
+VPS上：
+apt install git
+git config user.name &quot;haelking&quot;
+git config user.email &quot;xxx.@xxx.com
+git remote add origin https://github.com/haelking/hkblog.git
 
 如果出现错误：fatal: remote origin already exists，则执行以下语句：
 git remote rm origin
 git push origin master
 如果出现错误，则
 git pull origin master
-
+## push
+cd /var/www/hkblog
 git add .
 git commit -m &quot;all&quot;
 git push 

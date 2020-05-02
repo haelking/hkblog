@@ -8,24 +8,25 @@ categories: ["Programming"]
 ---
 
 # Github基本操作
-
+## 安装
 ```
-apt install git
-添加ssh
+Github网站：
+同时登陆github，添加ssh
 增加repositories
-设置
-git config -l
-git config user.name J_mailbox
-git config user.email J_mailbox@163.com //配置本地
 
-git remote add origin https://github.com/CongliYin/CSS.git
+VPS上：
+apt install git
+git config user.name "haelking"
+git config user.email "xxx.@xxx.com
+git remote add origin https://github.com/haelking/hkblog.git
 
 如果出现错误：fatal: remote origin already exists，则执行以下语句：
 git remote rm origin
 git push origin master
 如果出现错误，则
 git pull origin master
-
+## push
+cd /var/www/hkblog
 git add .
 git commit -m "all"
 git push 
