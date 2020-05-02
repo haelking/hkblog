@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+
+</title>
+
+    
+
+
+  
+  <meta name="author" content="Henry King" />
+  <meta name="description" content="" />
+
+
+
+<meta name="generator" content="Hugo 0.69.2" />
+
+<link rel="canonical" href="/markdown-tutorial/" />
+
+
+<meta property="og:title" content="" />
+<meta property="og:description" content="Markdown Tutorial Hello, welcome to my tutorial for markdown.
+In this tutorial you will learn the most basics things about Markdown.
+Spanish version available here. Portuguese version available here. French version available here.
+ Tables of contents
+ What is Markdown? Why use Markdown? Tools for Markdown Markdown Syntax   What is markdown ? According to Wikipedia :
+ Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/markdown-tutorial/" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="Markdown Tutorial Hello, welcome to my tutorial for markdown.
+In this tutorial you will learn the most basics things about Markdown.
+Spanish version available here. Portuguese version available here. French version available here.
+ Tables of contents
+ What is Markdown? Why use Markdown? Tools for Markdown Markdown Syntax   What is markdown ? According to Wikipedia :
+ Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name."/>
+
+
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
+
+
+
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+  </head>
+
+  
+  <body style="background: black;">
+  
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = '\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h2 class="ui header">
+          
+          <div class="sub header">@ Henry King · Monday, Jan 1, 0001 · 6 minute read · Update at Jan 1, 0001</div>
+        </h2>
+      </header>
+      <article style="margin-top: 2rem;"><h1 id="markdown-tutorial">Markdown Tutorial</h1>
+<p><img src="http://i.imgur.com/IMTN5cy.png" alt=""></p>
+<p>Hello, welcome to my tutorial for markdown.<br>
+In this tutorial you will learn the most basics things about Markdown.<br>
+Spanish version available <a href="https://github.com/LewisVo/Markdown-Tutorial/blob/master/Translation:Spanish.md">here</a>.
+Portuguese version available <a href="https://github.com/LewisVo/Markdown-Tutorial/blob/master/README_pt-BR.md">here</a>.
+French version available <a href="https://github.com/luongvo209/Markdown-Tutorial/blob/master/README_fr.md">here</a>.</p>
+<hr>
+<p>Tables of contents</p>
+<ol>
+<li><a href="#whatismarkdown">What is Markdown?</a></li>
+<li><a href="#why">Why use Markdown?</a></li>
+<li><a href="#tools">Tools for Markdown</a></li>
+<li><a href="#syntax">Markdown Syntax</a></li>
+</ol>
+<hr>
+<!-- raw HTML omitted -->
+<h2 id="what-is-markdown-">What is markdown ?</h2>
+<p>According to Wikipedia :</p>
+<blockquote>
+<p><em>Markdown is a lightweight markup language with plain text formatting syntax designed so that it can be converted to HTML and many other formats using a tool by the same name. Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.</em></p>
+</blockquote>
+<p><code>SIMPLY: IT'S JUST ANOTHER TYPE OF TEXT FILE, LIKE .txt .doc ....( now it's .md 😆) AND IT HAS SOME SPECIAL SYNTAX.</code></p>
+<!-- raw HTML omitted -->
+<p><em>There is no clearly defined Markdown standard. This has led to fragmentation as different vendors write their own variants of the language to correct flaws or add missing features.. A list of markdown flavour is available <a href="https://github.com/jgm/CommonMark/wiki/Markdown-Flavors">here</a>.</em></p>
+<p>From now, this guide will mainly focus on Github Flavoured Markdown.</p>
+<h2 id="why-use-markdown">Why use markdown?</h2>
+<p>Because it&rsquo;s :</p>
+<ul>
+<li><strong>EZ</strong> : The syntax is so easy that you can learn in a minute or two then write without noticing anything weirdo  or geeky.</li>
+<li><strong>FAST</strong> : It saves time compared to other types of text files/formats. It helps boost the productivity and workflows of writer.</li>
+<li><strong>CLEAN</strong> : Both the syntax and output are clean, not messy with our eyes and simple to manage.</li>
+<li><strong>FLEXIBLE</strong> : With just a little set-up, your text will be translated cross any platform out there, editable in any text-editing software and convertible to a wide array of formats.
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+<strong>In short</strong>, normal users will find it useful in any cases, especially when you are in need of something better than plain text but less functional than Microsoft Word.<br>
+<strong>For Developers</strong>, if you are lazy to write HTML code , you will love markdown. <strong>Moreover</strong>, <strong>Github</strong> and many sites favor markdown for readme file of projects. That means you gonna meet markdown in your life one way or another.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="tools-for-markdown">Tools for markdown</h2>
+<p>As said above, any editors can be used to edit markdown. However, there are a few tools that may be useful for you when it comes to edit markdown.</p>
+<ul>
+<li><strong><a href="https://stackedit.io"><em>Stackedit</em></a></strong> : Ok, you can stop reading right now. Click the link then start your markdown tour in an eziest way ever. Just type normal text then use your mouse, click click done. You dont have to know the syntax.  It&rsquo;s good, but it will make you reliant and most developers prefers keyboards.</li>
+<li><strong><a href="http://dillinger.io/"><em>Dillinger</em></a></strong> : Online tool, support live view (split screen) and export to html. Nothing too special but very neat and handy.</li>
+<li><strong><a href="https://www.typora.io/"><em>Typora</em></a></strong> : Available for Mac and Windows, minimal, distraction free, live view seemlessly, bundled with a lot of other stuffs like Images, Lists, Tables, Code Fences, Math Blocks, YAML, Front Matters,Toc,&hellip;</li>
+<li><strong><a href="https://atom.io/"><em>Atom</em></a></strong> : popular hackable text editor (you may be using this). Yeah, this is versatile. Markdown Support? Just a part of it but is greatly built in.</li>
+<li><strong><a href="https://chrome.google.com/webstore/detail/minimalist-markdown-edito/pghodfjepegmciihfhdipmimghiakcjf?hl=en"><em>Minimalist Markdown</em></a></strong> : Chrome app. Works everywhere if you have Chrome installed ( this is my favorite one).</li>
+<li><strong><a href="http://macdown.uranusjr.com/"><em>Macdown</em></a></strong> : best for Mac.</li>
+<li><strong><a href="http://markdownpad.com/"><em>MarkdownPad</em></a></strong> : best for Windows.</li>
+<li><strong><a href="https://remarkableapp.github.io/"><em>Remarkable</em></a></strong> : best for Linux.</li>
+<li><strong><a href="http://www.gitbook.com/"><em>GITBOOK</em></a></strong> : GitBook is a modern publishing toolchain. Making both writing and collaboration easy. It does both support Markdown and have a close relation with the beloved Github.</li>
+</ul>
+<!-- raw HTML omitted -->
+<h2 id="markdown-syntax">Markdown Syntax</h2>
+<p>All Syntax can be found <a href="https://daringfireball.net/projects/markdown/syntax">here</a> . It would take a lot of effort to describe syntax in text (they will be formatted) so please consider this table below for the whole basics syntax.</p>
+<table>
+<thead>
+<tr>
+<th>Format</th>
+<th>Syntax</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Italic</td>
+<td>*Text*</td>
+<td><em>This is italic</em></td>
+</tr>
+<tr>
+<td>Bold</td>
+<td>**Bold**</td>
+<td><strong>This is bold</strong></td>
+</tr>
+<tr>
+<td>Inline links</td>
+<td>[Description text](url here)</td>
+<td>A <a href="http://www.github.com">link</a></td>
+</tr>
+<tr>
+<td>Images</td>
+<td>![Caption](url to img)</td>
+<td>An image <img src="http://i.imgur.com/hRLuez2.png" alt="image"></td>
+</tr>
+<tr>
+<td>Link+images</td>
+<td>[![Caption](url to img)](url to a page)]</td>
+<td>Click me <a href="https://www.youtube.com"><img src="http://i.imgur.com/hRLuez2.png" alt="me"></a></td>
+</tr>
+<tr>
+<td>Footnotes</td>
+<td>I have more [^1] to say.   [^1]: say it down here.</td>
+<td><!-- raw HTML omitted -->Hey,Please read the note below this table.</td>
+</tr>
+<tr>
+<td>Line breaks</td>
+<td>Double space + enter</td>
+<td></td>
+</tr>
+<tr>
+<td>Unordered Lists</td>
+<td>* Item1     *Item 2</td>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted -->item1<!-- raw HTML omitted --><!-- raw HTML omitted -->item2<!-- raw HTML omitted --><!-- raw HTML omitted -->item3<!-- raw HTML omitted --><!-- raw HTML omitted -->item4<!-- raw HTML omitted --><!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>Ordered Lists</td>
+<td>1. Item a    2. Item b</td>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted -->itema<!-- raw HTML omitted --><!-- raw HTML omitted -->itemb<!-- raw HTML omitted --><!-- raw HTML omitted -->itemc<!-- raw HTML omitted --><!-- raw HTML omitted -->itemd<!-- raw HTML omitted --><!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>Mixed Lists</td>
+<td>1. Item 1      * item 1a</td>
+<td><!-- raw HTML omitted --><!-- raw HTML omitted -->itema<!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --> item1<!-- raw HTML omitted --><!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>Block quote</td>
+<td>&gt; Quoted text</td>
+<td><!-- raw HTML omitted -->Stay Hungry Stay Foolish<!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>Preformatted</td>
+<td>Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t.</td>
+<td>Begin each line with,two spaces or more to,make text look,e x a c t l y,like,you,type i,t.</td>
+</tr>
+<tr>
+<td>Code</td>
+<td>`Insert Code`</td>
+<td><code>cout&lt;&lt;&quot;Hello world&quot;;</code></td>
+</tr>
+<tr>
+<td>Code block/ Syntax highlighting</td>
+<td>```insert code```</td>
+<td><!-- raw HTML omitted -->Hey,Please read the note below this table.</td>
+</tr>
+<tr>
+<td>Headers</td>
+<td>#, ##, ###, ####, #####, ###### (from h1 to h6)</td>
+<td><!-- raw HTML omitted -->This is a h3 header<!-- raw HTML omitted --></td>
+</tr>
+<tr>
+<td>Strike through</td>
+<td>~~Insert text here~~</td>
+<td><del>I am dead</del></td>
+</tr>
+<tr>
+<td>Tables</td>
+<td>| Tables   |      Are      |  Cool | |-&mdash;&mdash;&mdash;|:-&mdash;&mdash;&mdash;&mdash;:|&mdash;&mdash;:| | col 1 is|  left-aligned | $1600 |</td>
+<td><img src="http://i.imgur.com/EItt7mh.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->
+<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<!-- raw HTML omitted -->
+<p><img src="http://i.imgur.com/pmeBr28.png" alt=""><br>
+<!-- raw HTML omitted --><!-- raw HTML omitted -->
+The same goes for <strong>block code/syntax hightlighting</strong>. It kinda looks like this picture :</p>
+<p><img src="http://i.imgur.com/z8KrxAz.png" alt="">.</p>
+<p>These characteristics are dependent upon each markdown flavour.</p>
+<h2 id="useful-notes--">Useful notes  :</h2>
+<ul>
+<li>
+<p>Markdown allows you to use backslash escapes to generate literal characters which
+would otherwise have special meaning in Markdown’s formatting syntax. One commonly used backslash escape character is : \  <br>
+<code>So? \*This\* isnt italic  anymore but is surrounded by literal asterisks.</code></p>
+</li>
+<li>
+<p>Youtube videos require some additional work.</p>
+</li>
+</ul>
+<pre><code>They can't be added directly but you can add an image with a link to the video like this:
+&lt;a href=&quot;http://www.youtube.com/watch?feature=player_embedded&amp;v=YOUTUBE_VIDEO_ID_HERE
+&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg&quot; 
+alt=&quot;IMAGE ALT TEXT HERE&quot; width=&quot;240&quot; height=&quot;180&quot; border=&quot;10&quot; /&gt;&lt;/a&gt;
+</code></pre><ul>
+<li>Markdown does support Emojii 😆 😆 😘 😇 💚 ( get some emojies <a href="http://www.emoji-cheat-sheet.com/">here</a> )</li>
+<li>You can use &lt;br/&gt; tag to force line break.</li>
+<li>Double space then enter if you want to make a new line if there is trouble making new lines.</li>
+<li>Seeing is not as good as practicing. You can either create a markdown file for yourself to practice or do it online <a href="http://www.markdowntutorial.com">here</a>.</li>
+<li>Footnotes and syntax highlighting are not part of the original markdown and are only supported by certain flavors of markdown (Feedback from <a href="https://goo.gl/ASZwEn">Sean Brody</a>)</li>
+<li>Any URL (like <a href="http://www.github.com/">http://www.github.com/</a>) will be automatically converted into a clickable link.</li>
+<li>Markdown table support is designed to handle most tables for most people; it doesn’t cover all tables for all people. If you need complex tables you will need to create them by hand or with a tool specifically designed for your output format.<br>
+<code>I had such a pain making the above table possible</code></li>
+</ul>
+<h6 id="author-vo-tran-thanh-luong-also-i-would-like-to-thank-all-the-contributorstranslators-for-your-work-making-this-greater">Author: <em>Vo Tran Thanh Luong</em>. Also, I would like to thank all the contributors/translators for your work making this greater.</h6>
+</article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+          <a class="ui label">No Tags</a>
+      
+      <div
+        class="ui label"
+        style="float: right; background: #1b1c1d !important; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i> Save as image
+      </div>
+    </footer>
+
+    
+      <footer class="ui attached segment">
+        Henry King
+      </footer>
+    
+
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="/img/jl.jpg">
+      
+    </div>
+
+    <h1 class="ui medium header">Henry King&#39;s blog<div class="sub header" style="margin-top: 0.5rem;">Katcoin</div>
+    </h1>
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2020 Henry King&#39;s Blog</p>
+    
+
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+  </section>
+</article>
+
+  </div>
+</div>
+
+        </section>
+        <section class="back">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = '\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          <div class="ui centered relaxed grid dream-grid dream-back">
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+      <footer class="ui segment">
+        Henry King
+      </footer>
+    
+  </section>
+
+  
+  
+
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+
+
+
+  </body>
+</html>

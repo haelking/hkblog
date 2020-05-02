@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+Markdown教程
+</title>
+
+    
+
+
+  
+  <meta name="author" content="Henry King" />
+  <meta name="description" content="" />
+
+
+
+<meta name="generator" content="Hugo 0.69.2" />
+
+<link rel="canonical" href="/post/markdown-tutorial/" />
+
+
+<meta property="og:title" content="Markdown教程" />
+<meta property="og:description" content="导语:
+
+Markdown是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。
+" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/markdown-tutorial/" />
+<meta property="article:published_time" content="2020-04-30T09:55:27+08:00" />
+<meta property="article:modified_time" content="2020-04-30T09:55:27+08:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Markdown教程"/>
+<meta name="twitter:description" content="导语:
+
+Markdown是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。
+"/>
+
+
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
+
+
+
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+  </head>
+
+  
+  <body style="background: black;">
+  
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = '\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h2 class="ui header">
+          Markdown教程
+          <div class="sub header">@ Henry King · Thursday, Apr 30, 2020 · 2 minute read · Update at Apr 30, 2020</div>
+        </h2>
+      </header>
+      <article style="margin-top: 2rem;"><h4 id="导语">导语:</h4>
+<blockquote>
+<p><a href="http://zh.wikipedia.org/wiki/Markdown">Markdown</a>是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。看到这里请不要被「标记」、「语言」所迷惑，Markdown 的语法十分简单。</p>
+</blockquote>
+<p>常用的标记符号也不超过十个，这种相对于更为复杂的HTML 标记语言来说，Markdown 可谓是十分轻量的，学习成本也不需要太多，且一旦熟悉这种语法规则，会有一劳永逸的效果。
+本文转自<a href="https://sspai.com/post/25137">认识与入门 Markdown</a></p>
+<h2 id="认识markdown">认识Markdown</h2>
+<p>在刚才的导语里提到，Markdown 是一种用来写作的轻量级「标记语言」，它用简洁的语法代替排版，而不像一般我们用的字处理软件 Word 或 Pages 有大量的排版、字体设置。它使我们专心于码字，用「标记」语法，来代替常见的排版格式。例如此文从内容到格式，甚至插图，键盘就可以通通搞定了。目前来看，支持 Markdown 语法的编辑器有很多，包括很多网站（例如<a href="http://jianshu.io">简书</a>）也支持了 Markdown 的文字录入。Markdown 从写作到完成，导出格式随心所欲，你可以导出 HTML 格式的文件用来网站发布，也可以十分方便的导出 PDF 格式，这种格式写出的简历更能得到 HR 的好感。甚至可以利用 <a href="http://getcloudapp.com">CloudApp</a> 这种云服务工具直接上传至网页用来分享你的文章，全球最大的轻博客平台 Tumblr，也支持使用 Mou 这类 Markdown 工具进行编辑并直接上传。</p>
+<h3 id="markdown官方文档">Markdown官方文档</h3>
+<blockquote>
+<p>这里可以看到官方的 Markdown 语法规则文档，当然，后文我也会用自己的方式，阐述这些语法在实际使用中的用法。</p>
+</blockquote>
+<ul>
+<li><a href="https://daringfireball.net/projects/markdown/syntax"><em>创始人John Gruber的Markdown语法说明</em></a></li>
+<li><a href="http://wowubuntu.com/markdown/#list"><em>Markdown中文版语法说明</em></a></li>
+</ul>
+<h3 id="使用markdown的优点">使用Markdown的优点</h3>
+<ul>
+<li>专注你的文字内容而不是排版样式</li>
+<li>轻松的导出HTML、PDF和本身的.md文件</li>
+<li>纯文本内容，兼容所有的文本编辑器和文字处理软件</li>
+<li>可读、直观。适合所有人的写作语言</li>
+</ul>
+<h3 id="我该用什么工具">我该用什么工具</h3>
+<h4 id="mac平台">Mac平台</h4>
+<ul>
+<li>在Mac OS X上，我强烈建议你用<a href="mouapp.com">Mou</a>这款免费且十分好用的Markdown编辑器，它支持实时预览，即左边是你编辑的Markdown语言，右边会实时的生成预览效果。其次还有很多同类选择。如果你是个编辑作者，我强烈建议你购买 <a href="www.ulyssesapp.com">Ulysses Ⅲ</a>，这款应用入围了苹果去年 Mac App Store 的 The Best of 2013，相比 Mou 它支持更多的写作格式、多文档的支持。Mou、iA Writer 这些应用都是基于单文档的管理方式，而 Ulysses Ⅲ 支持 Folder、Filter 的管理，一个 Folder 里面可以创建多个 Sheet，Sheet 之间还可以进行 Combine 处理。</li>
+</ul>
+<h4 id="windowsiosweb平台">Windows、ios、Web平台</h4>
+<ul>
+<li>笔者并未使用过Windows下的Markdown工具，但经朋友介绍，有两款还算不错，一款叫<a href="http://www.markdownpad.com">MarkdownPad</a>,另一款叫<a href="http://code52.org/DownmarkerWPF">MarkPad</a>。</li>
+<li>iOS 端已有相当多的 app 支持 Markdown 语法编辑，例如 Drafts、Day One、iA Writer 等。</li>
+<li>Web 端上，我强烈推荐 <a href="http://jianshu.io">简书</a> 这款产品，上面有无数热爱文字的人在不停的创造、分享。在 Web 端使用 Markdown 没有比简书更舒服的地方了，它同样支持左右两栏的实时预览，字体优雅、简洁。</li>
+<li>同样是 Web 端，<a href="https://draftin.com">Draftin</a> 这款在线 MD 编辑器也近乎完美。</li>
+</ul>
+<h2 id="markdown语法的简要规则">Markdown语法的简要规则</h2>
+<h3 id="标题">标题</h3>
+<p>标题是每篇文章都需要也是最常见的格式，在Markdown中，如果一段文字被定义为标题，只要在这段文字前加#号即可。</p>
+<p><code># 一级标题</code></p>
+<h1 id="一级标题">一级标题</h1>
+<p><code>## 二级标题</code></p>
+<h2 id="二级标题">二级标题</h2>
+<p><code>### 三级标题</code></p>
+<h3 id="三级标题">三级标题</h3>
+<p>依次类推，总共六级标题，建议在#号后加一个空格，这是最标准的<code>Markdown</code>语法。</p>
+<p>###列表
+熟悉HTML的同学肯定知道有序列表和无序列表的区别，在Markdown下，列表的显示只需要在文字前加上<code>-</code> 或 <code>*</code> 即可变为无序列表，有序列表则直接在文字前加 <code>1. 2. 3.</code> 注意：符号要和文字之间加上一个空格。</p>
+<h4 id="无序列表">无序列表</h4>
+<p><code>* 苹果</code></p>
+<p><code>* 香蕉</code></p>
+<p><code>* 梨</code></p>
+<ul>
+<li>苹果</li>
+<li>香蕉</li>
+<li>梨</li>
+</ul>
+<h4 id="有序列表">有序列表</h4>
+<p><code>1. 早饭要吃好</code></p>
+<p><code>2. 中饭要吃饱</code></p>
+<p><code>3. 晚饭要吃少</code></p>
+<ol>
+<li>早饭要吃好</li>
+<li>中饭要吃饱</li>
+<li>晚饭要吃少</li>
+</ol>
+<h3 id="引用">引用</h3>
+<p>如果你需要引用一小段别处的句子，就要用到引用。 只需要在文本前加入 <code>&gt;</code> 这种尖括号(大于号)即可。 要注意符号和文本间的空格。</p>
+<p><code>&gt; 床前明月光，疑似地上霜 - 李白</code></p>
+<blockquote>
+<p>床前明月光，疑似地上霜 - 李白</p>
+</blockquote>
+<h3 id="图片和链接">图片和链接</h3>
+<p>插入链接和插入图片的语法很像，区别在于一个 <code>!</code> 号</p>
+<h4 id="插入链接">插入链接</h4>
+<p><code>[百度](http://baidu.com)</code></p>
+<p><a href="http://baidu.com">百度</a></p>
+<h4 id="插入图片">插入图片</h4>
+<p><code>![百度LOGO](https://www.baidu.com/img/bd_logo1.png)</code></p>
+<p><img src="https://www.baidu.com/img/bd_logo1.png" alt="百度LOGO"></p>
+<h3 id="粗体和斜体">粗体和斜体</h3>
+<p>Markdown的粗体和斜体也非常简单，用两个 <code>*</code> 包含一段文本就是粗体的语法，用一个 <code>*</code> 包含一段文本就是斜体的语法。</p>
+<p><code>**这里是粗体**</code>
+<strong>这里是粗体</strong></p>
+<p><code>*这里是斜体*</code>
+<em>这里是斜体</em></p>
+<h3 id="表格">表格</h3>
+<p>表格是稍微有些复杂，语法如下：</p>
+<table>
+<thead>
+<tr>
+<th align="left">姓名</th>
+<th align="center">年龄</th>
+<th align="right">性别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">李雷</td>
+<td align="center">13</td>
+<td align="right">男</td>
+</tr>
+<tr>
+<td align="left">韩梅梅</td>
+<td align="center">12</td>
+<td align="right">女</td>
+</tr>
+</tbody>
+</table>
+<p><code>:---</code>  代表左对齐
+<code>:---:</code> 代表居中对齐
+<code>---:</code>  代表右对齐</p>
+<h3 id="代码框">代码框</h3>
+<p>如果你是个程序猿，需要在文章里优雅的引用代码框，在Markdown下实现也非常简单，语法如下：</p>
+<h4 id="单行用">单行用``</h4>
+<p>` int i = 1; `</p>
+<p><code>int i = 1;</code></p>
+<h4 id="多行用三个">多行用三个`</h4>
+<p>```</p>
+<p>int i = 1;</p>
+<p>int j = 2;</p>
+<p>int k = i + j;</p>
+<p>```</p>
+<h3 id="转义">转义</h3>
+<p>在需要转义的字符前加上 \ 即可</p>
+<p>`int i = 1;`</p>
+<p><code>int i = 1;</code></p>
+<p>转义后：</p>
+<p>\`int i = 1;\`</p>
+<p>`int i = 1;`</p>
+<h3 id="删除线">删除线</h3>
+<p>用两个 <code>~</code> 符号包含一段文本就是删除线的语法</p>
+<p><code>~~该语句作废~~</code></p>
+<p><del>该语句作废</del></p>
+<h3 id="分割线">分割线</h3>
+<p>分割线的语法用来另起一行，连续输入三个星号 <code>***</code> 即可。</p>
+<p><code>***</code></p>
+<hr>
+<h3 id="小结">小结</h3>
+<p>到这里，用Markdown来进行日常的使用应该没有什么大的问题了，再多加练习，配合好用的工具，写起东西来肯定会行云流水。</p>
+<h3 id="相关文章推荐">相关文章推荐</h3>
+<ul>
+<li><a href="http://apple4us.com/2012/02/why-writers-should-use-markdown/">为什么作家应该用Markdown保存自己的文稿</a></li>
+<li><a href="https://news.cnblogs.com/n/139649/">为什么我们要学习 Markdown 的三个理由</a>
+————————————————
+版权声明：本文为CSDN博主「钢铁土豆」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/damon_yan/java/article/details/73263261</li>
+</ul></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/markdown" title="Markdown">Markdown</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; background: #1b1c1d !important; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i> Save as image
+      </div>
+    </footer>
+
+    
+      <footer class="ui attached segment">
+        Henry King
+      </footer>
+    
+
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="/img/jl.jpg">
+      
+    </div>
+
+    <h1 class="ui medium header">Henry King&#39;s blog<div class="sub header" style="margin-top: 0.5rem;">Katcoin</div>
+    </h1>
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+  <section class="ui attached center aligned segment dream-tags">
+    
+      <a class="ui label" href="/tags/btc" title="btc">btc</a>
+    
+      <a class="ui label" href="/tags/hugo" title="hugo">hugo</a>
+    
+      <a class="ui label" href="/tags/markdown" title="markdown">markdown</a>
+    
+  </section>
+  
+
+  
+  <section class="ui attached segment dream-categories">
+    <div class="ui accordion">
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/hugo" class="item">hugo</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="/post/hugo/" class="item">hugo安装</a>
+              </div>
+            </div>
+          
+            <div class="item">
+              <div class="content">
+                <a href="/post/markdown-tutorial/" class="item">Markdown教程</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/invest" class="item">invest</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="/about/" class="item">TA</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2020 Henry King&#39;s Blog</p>
+    
+
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+  </section>
+</article>
+
+  </div>
+</div>
+
+        </section>
+        <section class="back">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = '\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          <div class="ui centered relaxed grid dream-grid dream-back">
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+      <footer class="ui segment">
+        Henry King
+      </footer>
+    
+  </section>
+
+  
+  
+
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+
+
+
+  </body>
+</html>

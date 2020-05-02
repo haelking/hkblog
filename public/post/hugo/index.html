@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+hugo安装
+</title>
+
+    
+
+
+  
+  <meta name="author" content="Henry King" />
+  <meta name="description" content="" />
+
+
+
+<meta name="generator" content="Hugo 0.69.2" />
+
+<link rel="canonical" href="/post/hugo/" />
+
+
+<meta property="og:title" content="hugo安装" />
+<meta property="og:description" content="做个记录" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/hugo/" />
+<meta property="article:published_time" content="2020-04-30T23:55:27+08:00" />
+<meta property="article:modified_time" content="2020-04-30T23:55:27+08:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="hugo安装"/>
+<meta name="twitter:description" content="做个记录"/>
+
+
+<link rel="stylesheet" href="/css/github-markdown.css" />
+<link rel="stylesheet" href="/css/semantic.min.css" />
+<link rel="stylesheet" href="/css/site.css" />
+
+
+<style>
+  a {
+    color: seagreen !important;
+  }
+</style>
+
+
+
+<style>
+  .inverted a {
+     color: darkseagreen !important;
+  }
+</style>
+
+
+  </head>
+
+  
+  <body style="background: black;">
+  
+    <div class="flip-container">
+      <div class="flipper">
+        <section class="front">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = '\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          
+<div class="ui centered relaxed grid dream-grid">
+  <div class="sixteen wide mobile sixteen wide tablet twelve wide computer column markdown-body dream-single">
+
+    <section class="ui top attached segment" id="dream-save-post-as-img">
+      <header style="margin-top: 0 !important;">
+        <h2 class="ui header">
+          hugo安装
+          <div class="sub header">@ Henry King · Thursday, Apr 30, 2020 · 1 minute read · Update at Apr 30, 2020</div>
+        </h2>
+      </header>
+      <article style="margin-top: 2rem;"><h1 id="做个记录">做个记录</h1>
+<p><a href="https://github.com/gohugoio/hugo/releases">https://github.com/gohugoio/hugo/releases</a>
+下载最新版本
+sudo dpkg -i *.deb
+如果出错
+执行
+sudo apt install -f</p>
+<p>再安装 git
+apt install git</p>
+<p>hugo new site test.example.com
+cd test.example.com
+hugo new about.md</p>
+<p>nano content/about.md</p>
+<h2 id="增加">增加：</h2>
+<h2 id="draft-false">title: &ldquo;About&rdquo;
+date: 2019-09-10T06:57:08Z
+draft: false</h2>
+<p>hugo new post/first.md
+nano content/post/first.md
+增加：</p>
+<hr>
+<h2 id="draft-false-1">title: &ldquo;First&rdquo;
+date: 2019-09-10T06:58:51Z
+draft: false</h2>
+<h2 id="this-is-my-first-blog-post">This is my first blog post</h2>
+<p>Hi How are you!</p>
+<p>I am hitesh jethva working as a technical writer.</p>
+<p>cd themes
+wget <a href="https://github.com/digitalcraftsman/hugo-strata-theme/archive/master.zip">https://github.com/digitalcraftsman/hugo-strata-theme/archive/master.zip</a>
+unzip master.zip
+cat hugo-strata-theme/exampleSite/config.toml &gt; ../config.toml</p>
+<p>nano ../config.toml</p>
+<p>baseurl = &ldquo;/&rdquo;</p>
+<p>[[menu.main]]
+name = &ldquo;About&rdquo;
+url  = &ldquo;about&rdquo;
+weight = 5</p>
+<p>nano /root/test.example.com/layouts/index.html</p>
+<p>{{ define &ldquo;main&rdquo; }}
+{{ if not .Site.Params.about.hide }}
+{{ partial &ldquo;about&rdquo; . }}
+{{ end }}</p>
+<pre><code>    {{ if not .Site.Params.portfolio.hide }}
+            {{ partial &quot;portfolio&quot; . }}
+    {{ end }}
+
+    {{ if not .Site.Params.recentposts.hide }}
+            {{ partial &quot;recent-posts&quot; . }}
+    {{ end }}
+
+    {{ if not .Site.Params.contact.hide }}
+            {{ partial &quot;contact&quot; . }}
+    {{ end }}
+</code></pre>
+<p>{{ end }}</p>
+<p>cd ../test.example.com
+hugo</p>
+<p>/etc/caddy/Caddy 文件里增加xxx.com配置I注意路径是public文件夹)</p>
+<p>一定要
+chown www-data:www-data /var/www/xxx.com</p>
+<p><a href="https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/">https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/</a></p></article>
+    </section>
+
+    <footer class="ui attached segment dream-tags">
+      
+        
+          <a class="ui label" href="/tags/hugo" title="hugo">hugo</a>
+        
+      
+      <div
+        class="ui label"
+        style="float: right; background: #1b1c1d !important; cursor: pointer;"
+        onclick="savePostAsImg()">
+        <i class="save icon"></i> Save as image
+      </div>
+    </footer>
+
+    
+      <footer class="ui attached segment">
+        Henry King
+      </footer>
+    
+
+    
+
+  </div>
+  <div class="sixteen wide mobile sixteen wide tablet four wide computer column">
+    <article class="dream-header">
+  <section class="ui top attached center aligned segment">
+    <div class="ui small circular image">
+      
+        <img src="/img/jl.jpg">
+      
+    </div>
+
+    <h1 class="ui medium header">Henry King&#39;s blog<div class="sub header" style="margin-top: 0.5rem;">Katcoin</div>
+    </h1>
+
+    <div class="ui horizontal list">
+      
+      <a class="item" href="/tags">
+        <i class="tags icon" title="All Tags"></i>
+      </a>
+      <a class="item" href="/categories">
+        <i class="th list icon" title="All Categories"></i>
+      </a>
+    </div>
+  </section>
+
+  
+  <section class="ui attached center aligned segment dream-tags">
+    
+      <a class="ui label" href="/tags/btc" title="btc">btc</a>
+    
+      <a class="ui label" href="/tags/hugo" title="hugo">hugo</a>
+    
+      <a class="ui label" href="/tags/markdown" title="markdown">markdown</a>
+    
+  </section>
+  
+
+  
+  <section class="ui attached segment dream-categories">
+    <div class="ui accordion">
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/hugo" class="item">hugo</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="/post/hugo/" class="item">hugo安装</a>
+              </div>
+            </div>
+          
+            <div class="item">
+              <div class="content">
+                <a href="/post/markdown-tutorial/" class="item">Markdown教程</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/invest" class="item">invest</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="/about/" class="item">TA</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+    </div>
+  </section>
+  
+
+  <section class="ui attached segment header-socials">
+    <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+  </section>
+
+  <section class="ui bottom attached center aligned segment">
+    
+      <p>© 2020 Henry King&#39;s Blog</p>
+    
+
+    <p>Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> with theme <a href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</p>
+  </section>
+</article>
+
+  </div>
+</div>
+
+        </section>
+        <section class="back">
+          
+<nav class="ui secondary inverted menu dream-menu">
+
+  <div class="item">
+    <i class="large link bullseye icon dream-flip-toggle" title="Flip it!"></i>
+  </div>
+  <div class="item">
+    <i class="large link home icon" title="Home" onclick="window.location.href = '\/'"></i>
+  </div>
+  <div class="item">
+    <i class="large link icon theme-switch" onclick="themeSwitch()"></i>
+  </div>
+</nav>
+
+          <div class="ui centered relaxed grid dream-grid dream-back">
+  
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    <article>
+      <div class="ui top attached segment">
+        <h3 class="ui header">Social Links</h3>
+      </div>
+      <div class="ui attached segment">
+        <nav class="ui secondary menu dream-menu dream-socials">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</nav>
+
+      </div>
+    </article>
+  </section>
+
+  <section class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+      <footer class="ui segment">
+        Henry King
+      </footer>
+    
+  </section>
+
+  
+  
+
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+<script src="/js/semantic.min.js"></script>
+<script src="/js/imagesloaded.pkgd.min.js"></script>
+<script src="/js/masonry.pkgd.min.js"></script>
+<script src="/js/nav.js"></script>
+<script src="/js/header.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/theme.js"></script>
+<script src="/js/html2canvas.min.js"></script>
+
+
+
+  </body>
+</html>

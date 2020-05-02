@@ -1,0 +1,39 @@
+baseurl = "/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Henry King's Blog"
+theme = "dream"
+
+# copyright = ""
+
+# googleAnalytics = ""
+
+# disqusShortname = ""
+
+# enableRobotsTXT = true
+
+[params]
+  background = "black"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  author = "Henry King"
+  # description = ""
+  avatar = "/img/jl.jpg"
+  motto = "Katcoin"
+
+  #email = "wag@gmail.com"
+  # github = ""
+  # linkedin = ""
+  # codepen = ""
+  # stackoverflow = ""
+
+  siteStartYear = 2020
+
+  # favicon = "/favicon.ico"
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404Button = true
+

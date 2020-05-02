@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hugo on Henry King&#39;s Blog</title>
+    <link>/tags/hugo/</link>
+    <description>Recent content in hugo on Henry King&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Henry King</copyright>
+    <lastBuildDate>Thu, 30 Apr 2020 23:55:27 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>hugo安装</title>
+      <link>/post/hugo/</link>
+      <pubDate>Thu, 30 Apr 2020 23:55:27 +0800</pubDate>
+      
+      <guid>/post/hugo/</guid>
+      <description>&lt;h1 id=&#34;做个记录&#34;&gt;做个记录&lt;/h1&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
