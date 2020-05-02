@@ -1,5 +1,5 @@
 ---
-title: Github
+title: Github备份
 date: 2020-05-2T23:55:27+08:00
 draft: false
 tags: ["github"]
@@ -7,7 +7,8 @@ series: ["syn"]
 categories: ["Programming"]
 ---
 
-# Github基本操作
+# Github备份blog
+<!--more-->
 ## 安装
 ```
 Github网站：

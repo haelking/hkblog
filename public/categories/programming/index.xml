@@ -12,12 +12,12 @@
     
     
     <item>
-      <title>Github</title>
+      <title>Github备份</title>
       <link>/post/github/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/post/github/</guid>
-      <description>Github基本操作 安装 Github网站： 同时登陆github，添加ssh 增加repositories VPS上： apt install git git config user.name &amp;quot;haelking&amp;quot; git config user.email &amp;quot;xxx.@xxx.com git remote add origin https://github.com/haelking/hkblog.git 如果出现错误：fatal: remote origin already exists，则执行以下语句： git remote rm origin git push origin master 如果出现错误，则 git pull origin master ## push cd /var/www/hkblog git add . git commit -m &amp;quot;all&amp;quot; git push </description>
+      <description>&lt;h1 id=&#34;github备份blog&#34;&gt;Github备份blog&lt;/h1&gt;</description>
     </item>
     
   </channel>
