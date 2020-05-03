@@ -141,8 +141,8 @@ Markdown是一种轻量级的「标记语言」，它的优点很多，目前也
 <p><code>### 三级标题</code></p>
 <h3 id="三级标题">三级标题</h3>
 <p>依次类推，总共六级标题，建议在#号后加一个空格，这是最标准的<code>Markdown</code>语法。</p>
-<p>###列表
-熟悉HTML的同学肯定知道有序列表和无序列表的区别，在Markdown下，列表的显示只需要在文字前加上<code>-</code> 或 <code>*</code> 即可变为无序列表，有序列表则直接在文字前加 <code>1. 2. 3.</code> 注意：符号要和文字之间加上一个空格。</p>
+<h3 id="列表">列表</h3>
+<p>熟悉HTML的同学肯定知道有序列表和无序列表的区别，在Markdown下，列表的显示只需要在文字前加上<code>-</code> 或 <code>*</code> 即可变为无序列表，有序列表则直接在文字前加 <code>1. 2. 3.</code> 注意：符号要和文字之间加上一个空格。</p>
 <h4 id="无序列表">无序列表</h4>
 <p><code>* 苹果</code></p>
 <p><code>* 香蕉</code></p>
@@ -183,27 +183,10 @@ Markdown是一种轻量级的「标记语言」，它的优点很多，目前也
 <em>这里是斜体</em></p>
 <h3 id="表格">表格</h3>
 <p>表格是稍微有些复杂，语法如下：</p>
-<table>
-<thead>
-<tr>
-<th align="left">姓名</th>
-<th align="center">年龄</th>
-<th align="right">性别</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">李雷</td>
-<td align="center">13</td>
-<td align="right">男</td>
-</tr>
-<tr>
-<td align="left">韩梅梅</td>
-<td align="center">12</td>
-<td align="right">女</td>
-</tr>
-</tbody>
-</table>
+<p>| 姓名 | 年龄 | 性别 |<br>
+|:&mdash;&ndash;|:&mdash;:|&mdash;:|
+| 李雷 | 13 | 男 |
+| 韩梅梅 | 12 | 女 |</p>
 <p><code>:---</code>  代表左对齐
 <code>:---:</code> 代表居中对齐
 <code>---:</code>  代表右对齐</p>
