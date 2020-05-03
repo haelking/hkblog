@@ -109,9 +109,15 @@ Markdown的粗体和斜体也非常简单，用两个 `*` 包含一段文本就�
 
 ### 表格
 表格是稍微有些复杂，语法如下：
+```
+| 姓名 | 年龄 | 性别 |
+|:-----|:---:|---:|
+| 李雷 | 13 | 男 |
+| 韩梅梅 | 12 | 女 |
+```
 
 | 姓名 | 年龄 | 性别 |  
-\|:-----|:---:|---:|
+|:-----|:---:|---:|
 | 李雷 | 13 | 男 |
 | 韩梅梅 | 12 | 女 |
 
@@ -178,6 +184,7 @@ int k = i + j;
 ### 相关文章推荐
 * [为什么作家应该用Markdown保存自己的文稿](http://apple4us.com/2012/02/why-writers-should-use-markdown/)
 * [为什么我们要学习 Markdown 的三个理由](https://news.cnblogs.com/n/139649/)
+* [Markdown 高级技巧](https://www.runoob.com/markdown/md-advance.html)
 ————————————————
 版权声明：本文为CSDN博主「钢铁土豆」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/damon_yan/java/article/details/73263261
