@@ -12,7 +12,8 @@ categories: ["Programming"]
 ## 安装
 ```
 Github网站：
-同时登陆github，添加ssh
+同时登陆github，添加ssh后，执行
+ssh -T git@github.com
 增加repositories
 
 VPS上：
@@ -32,4 +33,14 @@ git add .
 git commit -m "all"
 git push 
 
+```
+## ssh错误
+```
+ssh -T git@github.com
+如果连不上，或者执行出错
+1. 检查端口22是否开放
+2. 使用443端口，在
+ssh -T -p 443 git@ssh.github.com
+如果存在权限问题，执行
+chmod 700 ~/.ssh/id_rsa
 ```
