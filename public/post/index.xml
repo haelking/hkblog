@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>Github备份</title>
+      <link>/post/github/</link>
+      <pubDate>Sat, 02 May 2020 23:55:27 +0800</pubDate>
+      
+      <guid>/post/github/</guid>
+      <description>&lt;h1 id=&#34;github备份blog&#34;&gt;Github备份blog&lt;/h1&gt;</description>
+    </item>
+    
+    <item>
       <title>hugo安装</title>
       <link>/post/hugo/</link>
       <pubDate>Thu, 30 Apr 2020 23:55:27 +0800</pubDate>
@@ -49,15 +58,6 @@
       
       <guid>/post/first/</guid>
       <description>This is my first blog post Hi How are you!</description>
-    </item>
-    
-    <item>
-      <title>Github备份</title>
-      <link>/post/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/github/</guid>
-      <description>&lt;h1 id=&#34;github备份blog&#34;&gt;Github备份blog&lt;/h1&gt;</description>
     </item>
     
   </channel>

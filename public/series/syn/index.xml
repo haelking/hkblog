@@ -7,6 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Henry King</copyright>
+    <lastBuildDate>Sat, 02 May 2020 23:55:27 +0800</lastBuildDate>
     
 	<atom:link href="/series/syn/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>Github备份</title>
       <link>/post/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 May 2020 23:55:27 +0800</pubDate>
       
       <guid>/post/github/</guid>
       <description>&lt;h1 id=&#34;github备份blog&#34;&gt;Github备份blog&lt;/h1&gt;</description>

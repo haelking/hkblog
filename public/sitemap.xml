@@ -43,6 +43,26 @@
   </url>
   
   <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2020-05-02T23:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/github/</loc>
+    <lastmod>2020-05-02T23:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/programming/</loc>
+    <lastmod>2020-05-02T23:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/syn/</loc>
+    <lastmod>2020-05-02T23:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/series/editor/</loc>
     <lastmod>2020-04-30T23:55:27+08:00</lastmod>
   </url>
@@ -100,22 +120,6 @@
   <url>
     <loc>/post/first/</loc>
     <lastmod>2020-04-29T09:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/github/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/github/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/programming/</loc>
-  </url>
-  
-  <url>
-    <loc>/series/syn/</loc>
   </url>
   
 </urlset>
