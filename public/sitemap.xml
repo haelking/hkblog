@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/btc/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
-    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/cryptocurrency/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/invest/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-05T00:25:27+08:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +53,7 @@
   </url>
   
   <url>
-    <loc>/series/</loc>
-    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/ssh/</loc>
-    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-05-04T13:55:27+08:00</lastmod>
   </url>
   
@@ -80,31 +105,6 @@
   <url>
     <loc>/post/hugo/</loc>
     <lastmod>2020-04-30T23:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/btc/</loc>
-    <lastmod>2020-04-30T22:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/cryptocurrency/</loc>
-    <lastmod>2020-04-30T22:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-04-30T22:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/invest/</loc>
-    <lastmod>2020-04-30T22:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-    <lastmod>2020-04-30T22:55:27+08:00</lastmod>
   </url>
   
   <url>

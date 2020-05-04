@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Henry King</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 22:55:27 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2020 00:25:27 +0800</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TA</title>
+      <link>/about/</link>
+      <pubDate>Tue, 05 May 2020 00:25:27 +0800</pubDate>
+      
+      <guid>/about/</guid>
+      <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
+    </item>
     
     <item>
       <title>VPS 配置 SSH KEY 免密码&#43;安全</title>
@@ -37,15 +46,6 @@
       
       <guid>/post/hugo/</guid>
       <description>&lt;h1 id=&#34;做个懒笔记&#34;&gt;做个懒笔记&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>TA</title>
-      <link>/about/</link>
-      <pubDate>Thu, 30 Apr 2020 22:55:27 +0800</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
     </item>
     
     <item>
