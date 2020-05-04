@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>
-First
+VPS 配置 SSH KEY 免密码&#43;安全
 </title>
 
     
@@ -19,21 +19,22 @@ First
 
 <meta name="generator" content="Hugo 0.69.2" />
 
-<link rel="canonical" href="/post/first/" />
+<link rel="canonical" href="/post/ssh/" />
 
 
-<meta property="og:title" content="First" />
-<meta property="og:description" content="This is my first blog post Hi How are you!" />
+<meta property="og:title" content="VPS 配置 SSH KEY 免密码&#43;安全" />
+<meta property="og:description" content="VPS 配置 SSH KEY 免密码&#43;安全" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/first/" />
-<meta property="article:published_time" content="2020-04-29T09:55:27+08:00" />
-<meta property="article:modified_time" content="2020-04-29T09:55:27+08:00" />
+<meta property="og:url" content="/post/ssh/" />
+<meta property="article:published_time" content="2020-05-04T13:55:27+08:00" />
+<meta property="article:modified_time" content="2020-05-04T13:55:27+08:00" />
+
 
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="First"/>
-<meta name="twitter:description" content="This is my first blog post Hi How are you!"/>
+<meta name="twitter:title" content="VPS 配置 SSH KEY 免密码&#43;安全"/>
+<meta name="twitter:description" content="VPS 配置 SSH KEY 免密码&#43;安全"/>
 
 
 <link rel="stylesheet" href="/css/github-markdown.css" />
@@ -85,18 +86,67 @@ First
     <section class="ui top attached segment" id="dream-save-post-as-img">
       <header style="margin-top: 0 !important;">
         <h2 class="ui header">
-          First
-          <div class="sub header">@ Henry King · Wednesday, Apr 29, 2020 · 1 minute read · Update at Apr 29, 2020</div>
+          VPS 配置 SSH KEY 免密码&#43;安全
+          <div class="sub header">@ Henry King · Monday, May 4, 2020 · 1 minute read · Update at May 4, 2020</div>
         </h2>
       </header>
-      <article style="margin-top: 2rem;"><h1 id="this-is-my-first-blog-post">This is my first blog post</h1>
-<p>Hi How are you!</p>
-</article>
+      <article style="margin-top: 2rem;"><h1 id="vps-配置-ssh-key-免密码安全">VPS 配置 SSH KEY 免密码+安全</h1>
+<h2 id="原理和作用">原理和作用</h2>
+<p>利用密钥生成器制作一对密钥 —— 公钥和私钥。 
+将公钥添加到服务器的某个账户上，然后在客户端利用私钥即可完成认证并登录。<br>
+这样一来，没有私钥，任何人都无法通过 SSH 暴力破解你的密码来远程登录到
+系统。
+此外，如果将公钥复制到其他账户甚至主机，利用私钥也可以登录。</p>
+<h2 id="生成-ssh-密钥对">生成 SSH 密钥对</h2>
+<ol>
+<li>
+<p>生成密钥可以在远端 VPS 上，也可以在本地终端上进行操作，方法都是类似的。
+输入命令 <code>ssh-keygen</code> 然后按 4 次 Enter 键就行了。</p>
+</li>
+<li>
+<p>在~./ssh下会生成<code>id_rsa.pub</code>和<code>id_rsa</code>两个文件，分别是公钥和私钥。</p>
+</li>
+</ol>
+<h2 id="安装公钥">安装公钥:</h2>
+<ul>
+<li>服务器端生成的公钥</li>
+</ul>
+<pre><code>cd .ssh/
+cat id_rsa.pub &gt;&gt; authorized_keys # 将公钥写入到 authorized_keys
+chmod 600 authorized_keys # 修改读写属性
+chmod 700 ~/.ssh # 修改读写属性
+</code></pre><ul>
+<li>linux本地生成的公钥
+<code>ssh-copy-id 1 user@remote -p port</code>
+其中user 为用户名， remote 为IP地址， port为端口号。</li>
+<li>windows本地生成的公钥</li>
+</ul>
+<pre><code>ssh user@remote -p port 'mkdir -p .ssh &amp;&amp; cat &gt;&gt; .ssh/authorized
+</code></pre><p>命令的含义是，在远端新建 .ssh 文件夹，并把本地的 ~/.ssh/id_rsa.pub（公钥）追加到远端
+的 .ssh/authorized_keys 中。</p>
+<h2 id="修改ssh配置文件">修改ssh配置文件</h2>
+<pre><code># nano /etc/ssh/sshd_config，修改以下为yes
+RSAAuthentication yes
+PubkeyAuthentication yes
+
+# 重启服务
+service sshd restart
+</code></pre><h2 id="本地配置">本地配置</h2>
+<p>Putty，MobaXterm等软件中设置刚才生成的私钥。
+<code>PasswordAuthentication no # 禁用密码登录，务必在私钥登录成功后设置。</code></p>
+<h2 id="vps之间利用ssh登录">VPS之间利用ssh登录</h2>
+<ul>
+<li>主要用来管理ping很差的vps</li>
+<li>私钥上传到登录服务器上，对应公钥在被登录服务器上，然后执行：
+<code>ssh ip -p 6799 #</code></li>
+</ul></article>
     </section>
 
     <footer class="ui attached segment dream-tags">
       
-          <a class="ui label">No Tags</a>
+        
+          <a class="ui label" href="/tags/ssh" title="ssh">ssh</a>
+        
       
       <div
         class="ui label"

@@ -4,7 +4,42 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-04-30T23:55:27+08:00</lastmod>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/linux/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ssh/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/series/vps/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/ssh/</loc>
+    <lastmod>2020-05-04T13:55:27+08:00</lastmod>
   </url>
   
   <url>
@@ -24,21 +59,6 @@
   
   <url>
     <loc>/post/hugo/</loc>
-    <lastmod>2020-04-30T23:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-04-30T23:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/series/</loc>
-    <lastmod>2020-04-30T23:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-30T23:55:27+08:00</lastmod>
   </url>
   
