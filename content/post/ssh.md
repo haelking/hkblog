@@ -54,8 +54,13 @@ service sshd restart
 ```
 
 ## 本地配置
-Putty，MobaXterm等软件中设置刚才生成的私钥。
-```PasswordAuthentication no # 禁用密码登录，务必在私钥登录成功后设置。```
+- Putty，MobaXterm等软件中设置刚才生成的私钥。
+
+## 禁止密码登录
+```
+# nano /etc/ssh/sshd_config
+PasswordAuthentication no # 禁用密码登录，务必在私钥登录成功后设置。
+```
 
 ## VPS之间利用ssh登录
 - 主要用来管理ping很差的vps

@@ -132,9 +132,13 @@ PubkeyAuthentication yes
 # 重启服务
 service sshd restart
 </code></pre><h2 id="本地配置">本地配置</h2>
-<p>Putty，MobaXterm等软件中设置刚才生成的私钥。
-<code>PasswordAuthentication no # 禁用密码登录，务必在私钥登录成功后设置。</code></p>
-<h2 id="vps之间利用ssh登录">VPS之间利用ssh登录</h2>
+<ul>
+<li>Putty，MobaXterm等软件中设置刚才生成的私钥。</li>
+</ul>
+<h2 id="禁止密码登录">禁止密码登录</h2>
+<pre><code># nano /etc/ssh/sshd_config
+PasswordAuthentication no # 禁用密码登录，务必在私钥登录成功后设置。
+</code></pre><h2 id="vps之间利用ssh登录">VPS之间利用ssh登录</h2>
 <ul>
 <li>主要用来管理ping很差的vps</li>
 <li>私钥上传到登录服务器上，对应公钥在被登录服务器上，然后执行：
