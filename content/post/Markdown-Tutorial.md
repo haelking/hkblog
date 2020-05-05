@@ -159,7 +159,22 @@ int k = i + j;
 
 \`int i = 1;\`
 
+Markdown 使用反斜杠转义特殊字符：
 
+```
+\   反斜线
+`   反引号
+*   星号
+_   下划线
+{}  花括号
+[]  方括号
+()  小括号
+#   井字号
++   加号
+-   减号
+.   英文句点
+!   感叹号
+```
 ### 删除线
 
 用两个 `~` 符号包含一段文本就是删除线的语法
@@ -177,6 +192,38 @@ int k = i + j;
 
 ***
 
+### 支持的 HTML 元素
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
+目前支持的 HTML 元素有：<kbd> <b> <i> <em> <sup> <sub> <br>等 ，如：
+`使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑`
+
+使用 <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Del</kbd> 重启电脑
+
+### 公式
+当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。  
+提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。如：
+```
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+```
+* 需要在themes/dream/layouts/partials/footer.html里加入一行：
+`<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>`
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix} 
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+${$tep1}{\style{visibility:hidden}{(x+1)(x+1)}}
+$$
+
 ### 小结
 
 到这里，用Markdown来进行日常的使用应该没有什么大的问题了，再多加练习，配合好用的工具，写起东西来肯定会行云流水。
@@ -186,6 +233,7 @@ int k = i + j;
 * [为什么作家应该用Markdown保存自己的文稿](http://apple4us.com/2012/02/why-writers-should-use-markdown/)
 * [为什么我们要学习 Markdown 的三个理由](https://news.cnblogs.com/n/139649/)
 * [Markdown 高级技巧](https://www.runoob.com/markdown/md-advance.html)  
-————————————————
+
+————————————————  
 版权声明：本文为CSDN博主「钢铁土豆」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
 原文链接：https://blog.csdn.net/damon_yan/java/article/details/73263261
