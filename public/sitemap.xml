@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/ta/</loc>
     <lastmod>2020-05-07T08:45:23+08:00</lastmod>
   </url>
   
@@ -120,11 +120,6 @@
   <url>
     <loc>/post/markdown-tutorial/</loc>
     <lastmod>2020-04-30T09:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/first/</loc>
-    <lastmod>2020-04-29T09:55:27+08:00</lastmod>
   </url>
   
 </urlset>

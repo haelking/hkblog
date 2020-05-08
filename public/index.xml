@@ -23,10 +23,10 @@
     
     <item>
       <title>TA</title>
-      <link>/about/</link>
+      <link>/ta/</link>
       <pubDate>Thu, 07 May 2020 08:45:23 +0800</pubDate>
       
-      <guid>/about/</guid>
+      <guid>/ta/</guid>
       <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
     </item>
     
@@ -67,15 +67,6 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;a href=&#34;http://zh.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt;是一种轻量级的「标记语言」，它的优点很多，目前也被越来越多的写作爱好者，撰稿者广泛使用。&lt;/p&gt;
 &lt;/blockquote&gt;</description>
-    </item>
-    
-    <item>
-      <title>First</title>
-      <link>/post/first/</link>
-      <pubDate>Wed, 29 Apr 2020 09:55:27 +0800</pubDate>
-      
-      <guid>/post/first/</guid>
-      <description>This is my first blog post Hi How are you!</description>
     </item>
     
   </channel>

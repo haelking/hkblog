@@ -60,14 +60,5 @@
 &lt;/blockquote&gt;</description>
     </item>
     
-    <item>
-      <title>First</title>
-      <link>/post/first/</link>
-      <pubDate>Wed, 29 Apr 2020 09:55:27 +0800</pubDate>
-      
-      <guid>/post/first/</guid>
-      <description>This is my first blog post Hi How are you!</description>
-    </item>
-    
   </channel>
 </rss>
