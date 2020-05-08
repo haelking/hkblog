@@ -8,10 +8,10 @@ categories: ["Invest"]
 ---
 <!--more-->
 # 调整浪学习 Corrective Waves
-## 三角形的策略Triangular
-(/img/tri-1.png)
-(/img/tri-2.png)
-> 定义
+## 三角形Triangular Wave
+![A](/img/tri-1.png)
+![B](/img/tri-2.png)
+## 定义
 三角形普遍为 5 浪结构，它的运行方向与大一浪级的趋势相反，它的本质是调整浪，标示为A-B-C-D-E。  
 三角形在两条轨道线中运行：浪A和浪C的连线，浪B和浪D的连线。  
 三角形有两种形式，收缩三角形(Contracting Triangle)和扩散三角形(Expanding Triangle)。  
@@ -19,7 +19,7 @@ categories: ["Invest"]
 
 |浪形|内部子浪形|突破位置|突破幅度|  
 |:---:|:---:|:---:|:---:|  
-|三角形|33333|大部分e浪后顺势，反转位置逆势|1/2-3/4底边位置突破幅度为a的等量|  
+|三角形|33333|大部分E浪后顺势，反转位置逆势|1/2-3/4底边位置突破幅度为A的等量|  
 
 ### 浪形要点  
 1. 收缩三角形(CT)的浪 A 总是锯齿形或者是平台形；  
