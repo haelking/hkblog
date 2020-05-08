@@ -9,7 +9,8 @@ categories: ["Invest"]
 <!--more-->
 # 调整浪学习 Corrective Waves
 ## 三角形的策略Triangular
-
+(/img/tri-1.png)
+(/img/tri-2.png)
 > 定义
 三角形普遍为 5 浪结构，它的运行方向与大一浪级的趋势相反，它的本质是调整浪，标示为A-B-C-D-E。  
 三角形在两条轨道线中运行：浪A和浪C的连线，浪B和浪D的连线。  
