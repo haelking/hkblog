@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Henry King</copyright>
-    <lastBuildDate>Mon, 04 May 2020 13:55:27 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2020 22:45:23 +0800</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stock Waves</title>
+      <link>/post/stock-waves/</link>
+      <pubDate>Fri, 08 May 2020 22:45:23 +0800</pubDate>
+      
+      <guid>/post/stock-waves/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>VPS 配置 SSH KEY 免密码&#43;安全</title>
