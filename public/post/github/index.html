@@ -112,10 +112,11 @@ git push origin master
 git pull origin master
 ## push
 cd /var/www/hkblog
+
 git add .
 git commit -m &quot;all&quot;
 git push 
-
+也可以把上述三个语句写入push.sh中执行，要chmod +x push.sh
 </code></pre><h2 id="ssh错误">ssh错误</h2>
 <pre><code>ssh -T git@github.com
 如果连不上，或者执行出错
