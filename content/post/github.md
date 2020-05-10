@@ -41,12 +41,21 @@ git push
 ssh -T git@github.com
 如果连不上，或者执行出错
 1. 检查端口22是否开放
-2. 使用443端口，在~/.ssh/config，添加:
+2. ~/目录内添加用户
+'''
+git config --global user.email “william.lian.fang@gmail.com”
+git config --global user.name “williamlfang”
+'''
+3. 使用443端口，在~/.ssh/config，添加:
+'''
 Host github.com
   Hostname ssh.github.com
-  Port 443
-或者
+  Port 443'
+'''
+然后执行: 
+'''
 ssh -T -p 443 git@ssh.github.com
+'''
 如果存在权限问题，执行
 chmod 700 ~/.ssh/id_rsa
 ```
