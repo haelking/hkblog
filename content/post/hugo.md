@@ -9,8 +9,9 @@ categories: ["Hugo"]
 # 做个懒笔记
 <!--more-->
 # blog的VPS
-![webhook-1](/img/webhook-1.png)
-![webhook-1](/img/webhook-2.png)
+![webhook](/img/webhook.png)  
+![webhook-2](/img/webhook-2.png)  
+
 ## 安装hugo最新版
 https://github.com/gohugoio/hugo/releases
 sudo dpkg -i *.deb
