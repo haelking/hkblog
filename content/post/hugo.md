@@ -65,6 +65,8 @@ chown www-data:www-data /var/www/xxx.com
 hugo new site /var/www/hkblog
 cd /var/www/hkblog
 
+---
+
 # 本地
 ## 安装hugo和git同vps
 
@@ -146,6 +148,14 @@ nano /root/test.example.com/layouts/index.html
 cd ~/hkblog
 hugo
 ```
-
+## git推送
+- 如开头的图，设置好github上的webhook
+```
+cd ~/hkblog
+git add .
+git commit -m "all"
+git push
+```
+以上要先设置好git push/pull，减另一篇github备份文章。
 
 [^1]:部分内容引用，感谢。https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/

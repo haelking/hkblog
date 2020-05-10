@@ -135,6 +135,7 @@ hkblog.201682.xyz
 </code></pre><h2 id="建立网站">建立网站</h2>
 <p>hugo new site /var/www/hkblog
 cd /var/www/hkblog</p>
+<hr>
 <h1 id="本地">本地</h1>
 <h2 id="安装hugo和git同vps">安装hugo和git同vps</h2>
 <h2 id="建立两个帖子试试">建立两个帖子试试</h2>
@@ -208,7 +209,15 @@ baseurl = &quot;/&quot;
 </code></pre><h2 id="生成网站">生成网站</h2>
 <pre><code>cd ~/hkblog
 hugo
-</code></pre></article>
+</code></pre><h2 id="git推送">git推送</h2>
+<ul>
+<li>如开头的图，设置好github上的webhook</li>
+</ul>
+<pre><code>cd ~/hkblog
+git add .
+git commit -m &quot;all&quot;
+git push
+</code></pre><p>以上要先设置好git push/pull，减另一篇github备份文章。</p></article>
     </section>
 
     <footer class="ui attached segment dream-tags">
