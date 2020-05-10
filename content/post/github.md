@@ -18,6 +18,8 @@ ssh -T git@github.com
 
 VPS上：
 apt install git
+cd DIR
+git init
 git config user.name "haelking"
 git config user.email "xxx.@xxx.com
 git remote add origin https://github.com/haelking/hkblog.git
