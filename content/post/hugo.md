@@ -6,9 +6,12 @@ tags: ["hugo"]
 series: ["Editor"]
 categories: ["Hugo"]
 ---
+
 # 做个懒笔记
 <!--more-->
+
 # blog的VPS
+
 ![webhook](/img/webhook.png)  
 ![webhook-2](/img/webhook-2.png)  
 
@@ -18,9 +21,12 @@ sudo dpkg -i *.deb
 如果出错
 执行
 sudo apt install -f
+
 ## 安装git
 apt install git
+
 ## 配置caddy
+
 ```
 安装caddy 要带上http.git
 nano /etc/caddy/Caddy 
@@ -53,6 +59,7 @@ hkblog.201682.xyz
 同时要把blog的文件夹更改用户为www-data
 ```
 chown www-data:www-data /var/www/xxx.com
+```
 
 ## 建立网站
 hugo new site /var/www/hkblog
@@ -141,5 +148,4 @@ hugo
 ```
 
 
-```
 [^1]:部分内容引用，感谢。https://www.howtoforge.com/how-to-install-hugo-site-generator-on-ubuntu/
