@@ -56,6 +56,6 @@ Host github.com
 '''
 ssh -T -p 443 git@ssh.github.com
 '''
-如果存在权限问题，执行
+如果存在权限问题，执行:  
 chmod 700 ~/.ssh/id_rsa
 ```
