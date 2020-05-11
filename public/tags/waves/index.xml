@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Invest on Henry King&#39;s Blog</title>
-    <link>/categories/invest/</link>
-    <description>Recent content in Invest on Henry King&#39;s Blog</description>
+    <title>waves on Henry King&#39;s Blog</title>
+    <link>/tags/waves/</link>
+    <description>Recent content in waves on Henry King&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Henry King</copyright>
     <lastBuildDate>Mon, 11 May 2020 22:55:27 +0800</lastBuildDate>
     
-	<atom:link href="/categories/invest/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/waves/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,24 +21,6 @@
       <description>Table of Contents  General Rules 总则  总则 名词解释   Impulse Rules: 推动浪规则  General Rules 总则 总则 埃利奥特规则（Rules）的每一个细节 都必须遵守，才有资格成为埃利奥特 图例（或波浪）。
 但是，指引（Guidelines）不一定要遵守。埃利奥特模式遵守的指引 （Guidelines）越多，其评级或正确的概率就越高。
 Elliott Rules must be obeyed in every detail for a pattern to qualify as an Elliott Pattern (or wave).However, the Guidelines do not have to be obeyed. The more Guidelines obeyed by an Elliott pattern, the higher its rating or probability of being correct.  名词解释 价格运行总量(The gross price movement) ：与“正统的头和底”相对应， 有时，一个形态的起点-终点与它的内部的价格运行的端点不一致。例如：2浪的B子浪高于A子浪的起点。</description>
-    </item>
-    
-    <item>
-      <title>TA</title>
-      <link>/ta/</link>
-      <pubDate>Sun, 10 May 2020 23:45:23 +0800</pubDate>
-      
-      <guid>/ta/</guid>
-      <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>Triangular Waves</title>
-      <link>/post/triangular-wave/</link>
-      <pubDate>Fri, 08 May 2020 22:45:23 +0800</pubDate>
-      
-      <guid>/post/triangular-wave/</guid>
-      <description></description>
     </item>
     
   </channel>

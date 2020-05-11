@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tags/btc/</loc>
-    <lastmod>2020-05-10T23:45:23+08:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2020-05-11T22:55:27+08:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>/post/elliott-wave-principle-rules-guidelines/</loc>
+    <lastmod>2020-05-11T22:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/invest/</loc>
+    <lastmod>2020-05-11T22:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/</loc>
+    <lastmod>2020-05-11T22:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-05-11T22:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/waves/</loc>
+    <lastmod>2020-05-11T22:55:27+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/btc/</loc>
     <lastmod>2020-05-10T23:45:23+08:00</lastmod>
   </url>
   
@@ -23,11 +48,6 @@
   </url>
   
   <url>
-    <loc>/categories/invest/</loc>
-    <lastmod>2020-05-10T23:45:23+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/series/</loc>
     <lastmod>2020-05-10T23:45:23+08:00</lastmod>
   </url>
@@ -35,16 +55,6 @@
   <url>
     <loc>/ta/</loc>
     <lastmod>2020-05-10T23:45:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-05-10T23:45:23+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2020-05-08T22:45:23+08:00</lastmod>
   </url>
   
   <url>
@@ -120,10 +130,6 @@
   <url>
     <loc>/post/markdown-tutorial/</loc>
     <lastmod>2020-04-30T09:55:27+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/elliott-wave-principle-rules-guidelines/</loc>
   </url>
   
 </urlset>

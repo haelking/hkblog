@@ -1,4 +1,11 @@
-
+---
+title: Elliot Wave Rules and Guidelines
+date: 2020-05-11T22:55:27+08:00
+draft: false
+tags: ["waves"]
+series: [""]
+categories: ["invest"]
+---
 # Table of Contents
 
 1.  [General Rules 总则](#orgab8c475)
