@@ -37,7 +37,7 @@ categories: ["Invest"]
 
 # General Rules 总则
 
-![img](./img/waves/wave-all.png)  
+![img](/img/waves/wave-all.png)  
 
 
 <a id="org3ae0ec1"></a>
@@ -90,7 +90,7 @@ categories: ["Invest"]
 
 # 推动浪
 
-![img](./img/waves/wave-impulse.png)  
+![img](/img/waves/wave-impulse.png)  
 
 
 <a id="org9c91141"></a>
@@ -221,7 +221,7 @@ categories: ["Invest"]
 
 ## 以下指引来自uuxp.com<sup><a id="fnr.2.100" class="footref" href="#fn.2">2</a></sup>
 
-![img](./img/waves/wave-failed5.png)  
+![img](/img/waves/wave-failed5.png)  
 
 > -   延长浪1、3、5经常会有一个波浪出现延长，而且仅有一个波浪延长；浪3是最易延长的波浪，浪3也常常是最长的波浪。延长浪也可以再包括延长浪。股票市场浪3延长常见，期货或商品市场浪5延长则明显多见。
 > -   延长浪与子浪的区别：没有太严谨的区别，推动浪的延长浪最多只能有一个，但子浪是全都有的而不能缺少的；延长浪看起来比较清晰，易识别，子浪一般需要到更小的周期里识别，比如日线级的波浪的子浪需要到60分钟K线里辨别，而延长浪则没必要。
@@ -274,7 +274,7 @@ categories: ["Invest"]
 
 # 楔形<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
 
-![img](./img/waves/wave-edld.png)  
+![img](/img/waves/wave-edld.png)  
 
 
 <a id="orga753fc2"></a>
