@@ -1,17 +1,15 @@
 --- 
 title: "Elliott Waves" 
-date: 2020-05-10T23:45:23+08:00 
+date: 2020-05-12T10:45:23+08:00 
 draft: false
 tags: ["BTC"]
 series: ["Waves"]
 categories: ["Invest"]
 ---
-<link href="http://kevinburke.bitbucket.org/markdowncss/markdown.css" rel="stylesheet">
 
 <!--more-->
 
 
-<a id="org3a1766a"></a>
 
 ## 前言
 
@@ -20,7 +18,7 @@ categories: ["Invest"]
 > 译一下，一方面是把文字翻译成按照自己习惯的方式，另一方面是提高对波浪理论的理解。  
 
 
-<a id="orgbb9af64"></a>
+<a id="org37d0408"></a>
 
 ### 一些感悟
 
@@ -37,12 +35,12 @@ categories: ["Invest"]
 > 战略上藐视敌人，但是前提是战术上优于敌人，所以投资是技术和心态的纠缠式交错提升过程，技术可以别人教，心态必须自己投入后才能体会。  
 
 
-<a id="org166b38c"></a>
+<a id="org0587ebf"></a>
 
 # General Rules 总则
 
 
-<a id="org7e86a9b"></a>
+<a id="orge9640d8"></a>
 
 ## 总则
 
@@ -53,7 +51,7 @@ categories: ["Invest"]
 > 但是，指引（Guidelines）不一定要遵守。埃利奥特模式遵守的指引（Guidelines）越多，其评级或正确的概率就越高。  
 
 
-<a id="org5198506"></a>
+<a id="orgab7071a"></a>
 
 ### 原文
 
@@ -62,7 +60,7 @@ categories: ["Invest"]
 > However, the Guidelines do not have to be obeyed. The more Guidelines obeyed by an Elliott pattern, the higher its rating or probability of being correct.  
 
 
-<a id="org03b13bb"></a>
+<a id="org283f14f"></a>
 
 ## 名词解释
 
@@ -81,12 +79,12 @@ categories: ["Invest"]
 > ****非调整浪**** ：这个是我自己的归类，把推动浪和楔形归入到此类，便于理解。  
 
 
-<a id="org5e25747"></a>
+<a id="orga1e5b5c"></a>
 
 # 推动浪
 
 
-<a id="orgb67590d"></a>
+<a id="org67b0128"></a>
 
 ## 推动浪规则
 
@@ -123,7 +121,7 @@ categories: ["Invest"]
 > -   浪5没有最小的时间限制。
 
 
-<a id="org65274f4"></a>
+<a id="org3d85a7c"></a>
 
 ### 原文
 
@@ -162,7 +160,7 @@ categories: ["Invest"]
 > -   Wave 5 has no minimum time constraint.
 
 
-<a id="orgc9b8e16"></a>
+<a id="org374b80f"></a>
 
 ## 推动浪指引
 
@@ -202,7 +200,7 @@ categories: ["Invest"]
 > -   第5浪的长度按时间计算通常小于浪3的4倍。
 
 
-<a id="orgab163a7"></a>
+<a id="org3c33443"></a>
 
 ### 原文
 
@@ -243,14 +241,14 @@ categories: ["Invest"]
 > • Wave 5 is usually less than 4 times length of Wave 3 by time.  
 
 
-<a id="orgbe193af"></a>
+<a id="org55684fd"></a>
 
 # 楔形
 
 > 原文中楔形的版面在平台型和三角形之间，楔形和推动浪为非调整浪，所以为了分类方便，放在此处。如果有不理解的浪型类别，可以先学习三角形、平台形和锯齿形族类调整浪的内容。  
 
 
-<a id="orgc86ff10"></a>
+<a id="orge240d5e"></a>
 
 ## 楔形规则
 
@@ -283,7 +281,7 @@ categories: ["Invest"]
 > -   浪5的运行时间最小为浪4的10%，最大为浪3的5倍。
 
 
-<a id="org2f5160b"></a>
+<a id="orgbebe711"></a>
 
 ### 原文
 
@@ -319,7 +317,7 @@ categories: ["Invest"]
 > • The minimum time for Wave 5 is 10% of Wave 4. The maximum time for Wave 5 is 5 times Wave 3.  
 
 
-<a id="org66e4ee9"></a>
+<a id="orgf986ddb"></a>
 
 ## 楔形指引
 
@@ -336,7 +334,7 @@ categories: ["Invest"]
 > -   终结楔形的浪5结束时超过通道线是比较典型的。
 
 
-<a id="org9825ee6"></a>
+<a id="org9ff5f82"></a>
 
 ### 原文
 
@@ -353,12 +351,12 @@ categories: ["Invest"]
 > • It is typical for Wave 5 of an ED to exceed the channel line.  
 
 
-<a id="org8b13d43"></a>
+<a id="org31651b4"></a>
 
 # 锯齿形
 
 
-<a id="org5b9b667"></a>
+<a id="org94b0486"></a>
 
 ## 锯齿形规则
 
@@ -377,7 +375,7 @@ categories: ["Invest"]
 > -   C浪的价格或时间不能超过A浪或B浪的10倍。
 
 
-<a id="orgff93bc7"></a>
+<a id="org3061141"></a>
 
 ### 原文
 
@@ -396,7 +394,7 @@ categories: ["Invest"]
 > • Wave C must be no more than 10 times either Wave A or B in price or time.  
 
 
-<a id="orgec1f46a"></a>
+<a id="org541c195"></a>
 
 ## 锯齿形指引
 
@@ -418,7 +416,7 @@ categories: ["Invest"]
 > -   浪C所占用的时间通常是浪A的61.8%到浪A和浪B中最短浪的161.8%之间。
 
 
-<a id="org13332c6"></a>
+<a id="org2e3e032"></a>
 
 ### 原文
 
@@ -441,12 +439,12 @@ categories: ["Invest"]
 > • The time taken by Wave C is usually between 61.8% of Wave A and 161.8% of the shortest Wave of A and B.  
 
 
-<a id="orgc36e76f"></a>
+<a id="org196231c"></a>
 
 # 平台形
 
 
-<a id="org16f2309"></a>
+<a id="orgf904d52"></a>
 
 ## 平台型规则
 
@@ -466,7 +464,7 @@ categories: ["Invest"]
 > -   浪A没有最短的时间限制。
 
 
-<a id="org5635abd"></a>
+<a id="orga9b10ff"></a>
 
 ### 原文
 
@@ -486,7 +484,7 @@ categories: ["Invest"]
 > • There is no minimum time constrains for Wave A.  
 
 
-<a id="orga51daf6"></a>
+<a id="org5a07e9b"></a>
 
 ## 平台型指引
 
@@ -510,7 +508,7 @@ categories: ["Invest"]
 > -   浪C所耗费的时间一般在浪A的61.8%到浪A和浪B最短浪的161.8%之间。(原文为浪1的61.8%)
 
 
-<a id="orgf0685e1"></a>
+<a id="orgce28f43"></a>
 
 ### 原文
 
@@ -537,12 +535,12 @@ categories: ["Invest"]
 > • The time taken by Wave C is generally between 61.8% of Wave 1 to 161.8% of the shortest of Waves A and B.  
 
 
-<a id="orgd6088b0"></a>
+<a id="orgec23308"></a>
 
 # 三角形
 
 
-<a id="orgfc04a63"></a>
+<a id="org1e84e16"></a>
 
 ## 三角形规则
 
@@ -578,7 +576,7 @@ categories: ["Invest"]
 > -   通道线与形态的交点的最大数量为6。
 
 
-<a id="org2054976"></a>
+<a id="orgd7eb31c"></a>
 
 ### 原文
 
@@ -613,7 +611,7 @@ categories: ["Invest"]
 > • The maximum number of pattern lengths into the future that the channel lines intersect is 6.  
 
 
-<a id="org734df93"></a>
+<a id="org5051c1a"></a>
 
 ## 三角形指引
 
@@ -630,7 +628,7 @@ categories: ["Invest"]
 > -   在收敛三角形中，E浪通常会回溯到D浪的70%左右。
 
 
-<a id="org5fb15f9"></a>
+<a id="org244ae2c"></a>
 
 ### 原文
 
@@ -648,16 +646,16 @@ categories: ["Invest"]
 > • In a CT, Wave E normally retraces Wave D by about 70%.  
 
 
-<a id="org966f5aa"></a>
+<a id="org81e29d6"></a>
 
 # 双重和三重锯齿形
 
 
-<a id="orgbce8920"></a>
+<a id="orgc320197"></a>
 
 ## 双重和三重锯齿形规则
 
-> 双重(DZ)和三重(TZ)锯齿形规则与锯齿形规则类似，通常是两个或三个锯齿形图案串在一起，连接浪称为X浪，属于调整性质。双重锯齿形并不常见，三重锯齿形则比较少见。锯齿形、双重锯齿形和三重锯齿形也被统称为锯齿形族类，或称为 "之字形"族类。双重锯齿形被标注为w-x-y，而三重锯齿形被标注为w-x-y-xx-z。这两种图案都包含在下面的规则和指南列表中。下面只说明了一个双重锯齿形。  
+> 双重(DZ)和三重(TZ)锯齿形规则与锯齿形规则类似，通常是两个或三个锯齿形图案通过连接浪在一起，连接浪称为X浪，都属于调整性质。双重锯齿形并不常见，三重锯齿形则比较少见。锯齿形、双重锯齿形和三重锯齿形也被统称为锯齿形族类，或称为 "之字形"族类。双重锯齿形被标注为w-x-y，而三重锯齿形被标注为w-x-y-xx-z。这两种图案都包含在下面的规则和指南列表中。下面只说明了一个双重锯齿形。  
 > 
 > -   浪W必须是锯齿形。
 > -   浪W的浪C不能是失败形态。
@@ -682,7 +680,7 @@ categories: ["Invest"]
 > -   浪Z在价格和时间上必须不超过浪XX、Y、X或W中任何一浪的5倍。
 
 
-<a id="org7e7f632"></a>
+<a id="orge9c1db0"></a>
 
 ### 原文
 
@@ -711,7 +709,7 @@ categories: ["Invest"]
 > • Wave Z must be no more than a 5 times either Waves XX, Y, X or W in both price and time.  
 
 
-<a id="org1a70181"></a>
+<a id="orga678223"></a>
 
 ## 双重和三重锯齿形指引
 
@@ -738,7 +736,7 @@ categories: ["Invest"]
 > -   按价格计算，浪Z的最大子浪通常小于浪Y。
 
 
-<a id="org7b43123"></a>
+<a id="org46cd545"></a>
 
 ### 原文
 
@@ -766,39 +764,40 @@ categories: ["Invest"]
 > • The largest Wave in Wave Z is usually less than Wave Y by price.  
 
 
-<a id="org2b352e0"></a>
+<a id="org506ba6f"></a>
 
 # 双重和三重横向调整形--
 
 
-<a id="org0b9c573"></a>
+<a id="org5ebaf6d"></a>
 
 ## 双重和三重横向调整形规则
 
-> 双倍(D3)和三倍(T3)的侧边规律类似于平手，一般是两到三个纠缠在一起的纠缠浪，称为X浪，都是纠缠的性质。双倍线不常见，三倍线则比较少见。双倍型被标注为w-x-y，而三倍型被标注为w-x-y-xx-z。这两种图案都包含在下面的规则和指南中。下面只说明了一个双倍体3。  
+> 双重(D3)和三重(T3)横向调整类似于平台形，一般是两到三个调整浪通过一个连接浪结合在一起，此连接浪称为X浪，都是调整浪。双重横向调整不常见，三重  
+> 横向调整则罕见。双重横向调整浪标注为w-x-y，而三重横向调整浪标注为w-x-y-xx-z。这两种图案都包含在下面的规则和指南中。下面只说明了双重横向调整。  
 > 
-> -   W浪W可以是除三角、双三外的任何调整形态。
-> -   W的C浪不能是失败形态。
-> -   X浪可以是除三角形、双倍或三倍以外的任何调整形态。
-> -   X浪的最小回撤位是W浪的70%。
-> -   浪X的最大价格距离为前一浪和随后的浪的150%。所有的内部数据点都要考虑。
+> -   浪W可以是除三角形、双重和三重锯齿或横向调整浪外的任何调整浪。
+> -   浪W的浪C不能失败。
+> -   浪X可以是除三角形、双重和三重锯齿或横向调整浪外的任何调整浪。
+> -   浪X的最小回撤浪W的70%。
+> -   浪X的价格运行总量为前一浪和后一浪中最小浪的150%。
 > -   虽然浪X没有最小时间，但最大时间是浪W的10倍。
-> -   浪Y可以是除双线、三线、三线或三棱形外的任何调整形态。但是，如果浪W是人字形，则浪Y不能是人字形。
-> -   Y的浪Y的价格必须大于或等于浪X的价格，但如果Y的浪是三角形，则除外。
-> -   Y浪的C浪不能是失败的。
-> -   Y浪的价格和时间上，Y浪必须不超过X浪或W浪的5倍。
-> -   Y浪没有最小时间限制。
-> -   浪XX可以是除三角、双线或三线外的任何调整形态。
-> -   最小的浪XX回撤位是浪Y的70%。
-> -   最大的浪XX回撤位是前一浪和随后的浪的150%。所有内部数据点都要考虑。
-> -   浪Z可以是任何调整形态，但双倍或三倍形态除外。但是，如果Y是人字形，则浪Z不能是人字形。
-> -   按价格计算，浪Z大于或等于XX。
-> -   浪Z在价格和时间上必须不超过5倍于XX浪、Y浪、X浪或W浪。
-> -   不允许背靠背和双倍失败。
-> -   如果Y浪的价格变动幅度大于W浪的价格变动幅度，则Z浪的最大价格变动幅度为W浪价格变动幅度的2倍。
+> -   浪Y可以是任何一种调整浪，除了双重三浪和三重三浪；而且如果整个形态是三重锯齿浪的话，浪Y不能是三角形；但是，如果浪W是锯齿形的话，浪Y则不能是锯齿形；
+> -   浪Y的价格必须大于或等于浪X，但如果Y的浪是三角形，则除外。
+> -   浪Y的浪C不能失败。
+> -   浪Y的价格和时间上，必须小于浪X或浪W的5倍。
+> -   浪Y没有最小时间限制。
+> -   浪XX可以是除双重和三重锯齿形或横向调整浪外的任何调整形态。
+> -   浪XX至少回撤浪Y的70%。
+> -   浪XX的价格运行总量回撤为是前一浪和后一浪中最小浪的150%。
+> -   浪Z可以是任何调整形态，但不能是双重和三重锯齿或横向调整浪。但是，如果Y是锯齿形的话，则浪Z不能是锯齿形。
+> -   按价格计算，浪Z大于等于浪XX。
+> -   浪Z在价格和时间上必须不超过浪XX、浪Y、浪X或浪W的5倍。
+> -   不允许相邻浪均失败。
+> -   如果浪Y的价格大于W浪的价格，则浪Z的价格最大为浪W的2倍。
 
 
-<a id="org77ed3eb"></a>
+<a id="org72270ea"></a>
 
 ### 原文
 
@@ -825,32 +824,32 @@ categories: ["Invest"]
 > • If Wave Y is greater than Wave W by price, then the maximum Wave Z price movement is twice the price movement of Wave W.  
 
 
-<a id="org6d6d004"></a>
+<a id="org84d1120"></a>
 
 ## 双重和三重横向调整形指引
 
-> -   按价格计算，浪W中的最大浪通常小于浪W的140%。
-> -   浪X通常是人字形家族形态。
-> -   浪X中最大的浪按价格计算通常小于浪W。
-> -   浪X按价格计算，通常是小于W的140%的浪。
+> -   按价格计算，浪W中的最大子浪通常小于浪W的140%。
+> -   浪X通常是锯齿形族类。
+> -   按价格计算，浪X中最大子浪通常小于浪W。
+> -   按价格计算，浪X通常小于浪W的140%。
 > -   按价格计算，浪X通常大于浪W的95%。
-> -   浪X最可能的回撤位是浪W的110%。
-> -   X浪X的时间一般在W1的62%到W1的1.618之间。
-> -   如果Y浪是一个三角形，那么Y浪最可能的长度约为W浪的61.8%；如果Y浪不是三角形，那么Y浪最可能的长度为W浪的100%，为W浪的161.8%，为W浪的10%以上的长度。
-> -   按价格计算，Y浪中最大的浪通常不到浪W的140%。
-> -   按价格计算，Y浪的最大浪通常不到浪W和浪X的两倍。
-> -   Y浪在时间上一般在W浪的61.8%到161.8%之间。
-> -   浪XX通常是人字形家族形态。
-> -   xx浪中最大的浪通常在价格上小于y浪的浪。
-> -   按价格计算，XX浪通常小于Y浪的140%。
+> -   浪X最可能的回撤浪W的110%。
+> -   浪X的时间一般在浪W的61.8%到161.8%之间。
+> -   如果浪Y是一个三角形，那么浪Z最可能的长度约为浪W的61.8%；如果Y浪不是三角形，最可能的长度为浪W的100%，161.8%，和超出浪W终点的W\*10%，按照价格计算。
+> -   按价格计算，浪Y中最大的子浪通常小于浪W的140%。
+> -   按价格计算，浪Y小于浪W和浪X中较长一浪的两倍。
+> -   时间上，浪Y一般在浪W的61.8%到161.8%之间。
+> -   浪XX通常是锯齿形族类。
+> -   浪XX中最大子浪通常在价格上小于浪Y。
+> -   按价格计算，浪XX通常小于Y浪的140%。
 > -   浪XX的价格通常大于Y浪的95%。
-> -   浪XX最可能的回撤位是浪Y的110%。
-> -   如果浪Y是三角形，按价格计算，最可能的长度是浪W的61.8%，如果浪Y不是三角形，那么最可能的长度是浪W的100%，浪W的161.8%，浪W结束后的长度是浪W的10%，都是按价格计算。
-> -   按价格计算，浪Z的最大浪通常不到浪Y的140%。
-> -   按价格计算，浪Z的长度通常小于浪Y和浪XX的2倍。
+> -   浪XX最可能的回撤浪Y的110%。
+> -   如果浪Z是一个三角形，那么浪Z最可能的长度约为浪Y的61.8%；如果浪Z不是三角形，最可能的长度为浪Y的100%，161.8%，和超出浪Y终点的Y\*10%，按照价格计算。<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+> -   按价格计算，浪Z的最大子浪通常小于浪Y的140%。
+> -   按价格计算，浪Z的长度通常小于浪Y和浪XX中较长浪的2倍。
 
 
-<a id="org0230525"></a>
+<a id="org35dfcb7"></a>
 
 ### 原文
 
@@ -881,3 +880,5 @@ categories: ["Invest"]
 # Footnotes
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> :原文无推动浪的阐述；
+
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> :原文描写的是Y和W的关系，似乎和前面重复，此处应为Z和Y的关系。
