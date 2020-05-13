@@ -13,8 +13,7 @@ categories: ["Invest"]
 
 ## 前言
 
-> 本文翻译自《Elliott Wave Principle - Rules & Guidelines》，网上很多版  
-> 本，但是总感觉翻译得不好，又或者自己的理解能力有限，所以自己从头到尾翻  
+> 本文翻译自《Elliott Wave Principle - Rules & Guidelines》，网上很多版> 本，但是总感觉翻译得不好，又或者自己的理解能力有限，所以自己从头到尾翻  
 > 译一下，一方面是把文字翻译成按照自己习惯的方式，另一方面是提高对波浪理论的理解。  
 
 
