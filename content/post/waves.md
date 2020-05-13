@@ -1,5 +1,5 @@
 --- 
-title: "TA" 
+title: "Elliott Waves" 
 date: 2020-05-10T23:45:23+08:00 
 draft: false
 tags: ["BTC"]
