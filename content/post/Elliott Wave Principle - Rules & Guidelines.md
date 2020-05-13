@@ -6,6 +6,7 @@ tags: ["waves"]
 series: [""]
 categories: ["invest"]
 ---
+<!--more-->
 # Table of Contents
 
 1.  [General Rules 总则](#orgab8c475)
