@@ -6,10 +6,9 @@ tags: ["BTC"]
 series: ["Waves"]
 categories: ["Invest"]
 ---
+<!--more-->
 # Table of Contents
 
-    1.  [前言](#org3a1766a)
-        1.  [一些感悟](#orgbb9af64)
 1.  [General Rules 总则](#org166b38c)
     1.  [总则](#org7e86a9b)
         1.  [原文](#org5198506)
