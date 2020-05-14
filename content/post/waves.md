@@ -6,7 +6,7 @@ tags: ["BTC"]
 series: ["Waves"]
 categories: ["Invest"]
 ---
-
+<!--more-->
 ## 前言
 
 > 本文翻译自《Elliott Wave Principle - Rules & Guidelines》，网上很多版本<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup>，但是总感觉阅读起来不顺，又或者自己的理解能力有限，所以自己从头到尾翻  
