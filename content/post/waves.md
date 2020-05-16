@@ -7,64 +7,6 @@ series: ["Waves"]
 categories: ["Invest"]
 ---
 <!--more-->
-# Table of Contents
-
-    1.  [前言](#org8621b14)
-        1.  [一些感悟](#org5088cef)
-        2.  [分析5步法](#org66feef2)
-1.  [General Rules 总则](#org9159b5f)
-    1.  [总则](#org8495c73)
-        1.  [原文](#orgbf031fc)
-    2.  [名词解释](#org761de71)
-2.  [推动浪](#orgacb2ddb)
-    1.  [推动浪规则](#orgb5b1c9e)
-    2.  [以下规则来自uuxp.com](#org0ac2670)
-        1.  [原文](#org5e75f6f)
-    3.  [推动浪指引](#orga71ae58)
-    4.  [以下指引来自uuxp.com](#org0f2ee89)
-        1.  [原文](#orgd784f36)
-3.  [楔形](#org8c7edc3)
-    1.  [楔形规则](#org8f789ce)
-    2.  [以下规则来自uuxp.com](#org771b774)
-        1.  [原文](#org58b5320)
-    3.  [楔形指引](#orgf9b6846)
-    4.  [以下指引来自uuxp.com](#orgd4a8620)
-        1.  [原文](#org58a5370)
-4.  [锯齿形](#org14400a1)
-    1.  [锯齿形规则](#orgadad74f)
-    2.  [以下规则来自uuxp.com](#org63f133f)
-        1.  [原文](#org9d81fea)
-    3.  [锯齿形指引](#org0e359c1)
-    4.  [以下指引来自uuxp.com](#org4b0c0c1)
-        1.  [原文](#org9f14b26)
-5.  [平台形](#org2ecdff8)
-    1.  [平台型规则](#org5ead5f2)
-    2.  [以下规则来自uuxp.com](#orgf2c7703)
-        1.  [原文](#org5ef3eda)
-    3.  [平台型指引](#orgbfd7be8)
-    4.  [以下指引来自uuxp.com](#org4c4ccd4)
-        1.  [原文](#org58e9628)
-6.  [三角形](#orgc4f3c4d)
-    1.  [三角形规则](#org4b14bbe)
-    2.  [以下规则来自uuxp.com](#org6ec9629)
-        1.  [原文](#orgabebc9f)
-    3.  [三角形指引](#org6984edf)
-        1.  [原文](#org6547e59)
-7.  [双重和三重锯齿形](#orgf9b75df)
-    1.  [双重和三重锯齿形规则](#org96d4bb6)
-        1.  [原文](#org893c381)
-    2.  [双重和三重锯齿形指引](#org59da7d1)
-        1.  [原文](#org94d9b74)
-8.  [双重和三重横向调整形](#org6803351)
-    1.  [双重和三重横向调整形规则](#orgc0d0cbf)
-    2.  [以下规则来自uuxp.com](#orgfa6cf65)
-        1.  [原文](#org90e7521)
-    3.  [双重和三重横向调整形指引](#orgf16c7a5)
-    4.  [以下指引来自uuxp.com](#orgf153d16)
-        1.  [原文](#org13e263a)
-9.  [其他](#orgea66d80)
-    1.  [斐波那契数列日](#org30be03e)
-
 
 
 <a id="org8621b14"></a>
@@ -107,7 +49,7 @@ categories: ["Invest"]
 
 # General Rules 总则
 
-![img](./img/waves/wave-all.png)  
+![img](/img/waves/wave-all.png)  
 
 
 <a id="org8495c73"></a>
@@ -160,7 +102,7 @@ categories: ["Invest"]
 
 # 推动浪
 
-![img](./img/waves/wave-impulse.png)  
+![img](/img/waves/wave-impulse.png)  
 
 
 <a id="orgb5b1c9e"></a>
@@ -291,7 +233,7 @@ categories: ["Invest"]
 
 ## 以下指引来自uuxp.com
 
-![img](./img/waves/wave-failed5.png)  
+![img](/img/waves/wave-failed5.png)  
 
 > -   延长浪1、3、5经常会有一个波浪出现延长，而且仅有一个波浪延长；浪3是最易延长的波浪，浪3也常常是最长的波浪。延长浪也可以再包括延长浪。股票市场浪3延长常见，期货或商品市场浪5延长则明显多见。
 > -   延长浪与子浪的区别：没有太严谨的区别，推动浪的延长浪最多只能有一个，但子浪是全都有的而不能缺少的；延长浪看起来比较清晰，易识别，子浪一般需要到更小的周期里识别，比如日线级的波浪的子浪需要到60分钟K线里辨别，而延长浪则没必要。
@@ -344,7 +286,7 @@ categories: ["Invest"]
 
 # 楔形<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
-![img](./img/waves/wave-edld.png)  
+![img](/img/waves/wave-edld.png)  
 
 
 <a id="org8f789ce"></a>
@@ -477,7 +419,7 @@ categories: ["Invest"]
 
 # 锯齿形
 
-![img](./img/waves/wave-zigzag.png)  
+![img](/img/waves/wave-zigzag.png)  
 
 
 <a id="orgadad74f"></a>
@@ -584,7 +526,7 @@ categories: ["Invest"]
 
 # 平台形
 
-![img](./img/waves/wave-flat.png)  
+![img](/img/waves/wave-flat.png)  
 
 
 <a id="org5ead5f2"></a>
@@ -700,8 +642,8 @@ categories: ["Invest"]
 
 # 三角形
 
-![img](./img/waves/wave-tria.png)  
-![img](./img/waves/wave-triah.png)  
+![img](/img/waves/wave-tria.png)  
+![img](/img/waves/wave-triah.png)  
 
 
 <a id="org4b14bbe"></a>
@@ -828,7 +770,7 @@ categories: ["Invest"]
 
 # 双重和三重锯齿形
 
-![img](./img/waves/wave-DZTZ.png)  
+![img](/img/waves/wave-DZTZ.png)  
 
 
 <a id="org96d4bb6"></a>
@@ -948,7 +890,7 @@ categories: ["Invest"]
 
 # 双重和三重横向调整形
 
-![img](./img/waves/wave-D3T3.png)  
+![img](/img/waves/wave-D3T3.png)  
 
 
 <a id="orgc0d0cbf"></a>
@@ -1081,8 +1023,8 @@ categories: ["Invest"]
 
 ## 斐波那契数列日
 
-![img](./img/waves/wave-fibday-1.png)  
-![img](./img/waves/wave-fibday-2.png)  
+![img](/img/waves/wave-fibday-1.png)  
+![img](/img/waves/wave-fibday-2.png)  
 
 > 规律是  
 > 
