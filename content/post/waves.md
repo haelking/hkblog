@@ -9,65 +9,65 @@ categories: ["Invest"]
 <!--more-->
 # Table of Contents
 
-    1.  [前言](#orgc365602)
-        1.  [一些感悟](#orga7f321b)
-        2.  [分析5步法](#orga04ed7b)
-1.  [General Rules 总则](#org8d11230)
-    1.  [总则](#org3e42a71)
-        1.  [原文](#org85bd642)
-    2.  [名词解释](#org13ba8e3)
-2.  [推动浪](#org1e1648c)
-    1.  [推动浪规则](#org33e31be)
-    2.  [以下规则来自uuxp.com](#orga48f079)
-        1.  [原文](#org8177aa1)
-    3.  [推动浪指引](#org38aed18)
-    4.  [以下指引来自uuxp.com](#org9bd733e)
-        1.  [原文](#org526a8fe)
-3.  [楔形](#org5b391bc)
-    1.  [楔形规则](#org4e79ee2)
-    2.  [以下规则来自uuxp.com](#orgac16558)
-        1.  [原文](#orgd4e57fc)
-    3.  [楔形指引](#org6a24ca0)
-    4.  [以下指引来自uuxp.com](#org736b94c)
-        1.  [原文](#orge1b8fad)
-4.  [锯齿形](#orgb412fe3)
-    1.  [锯齿形规则](#org8504ee1)
-    2.  [以下规则来自uuxp.com](#orge24ecbf)
-        1.  [原文](#org9a92406)
-    3.  [锯齿形指引](#org373a5f9)
-    4.  [以下指引来自uuxp.com](#orga249355)
-        1.  [原文](#org377670a)
-5.  [平台形](#org2b8c4dc)
-    1.  [平台型规则](#org8a5c11a)
-    2.  [以下规则来自uuxp.com](#org2c87539)
-        1.  [原文](#org14b47ee)
-    3.  [平台型指引](#org245b806)
-    4.  [以下指引来自uuxp.com](#org3bab178)
-        1.  [原文](#org54d3edb)
-6.  [三角形](#orged3b041)
-    1.  [三角形规则](#org71e5975)
-    2.  [以下规则来自uuxp.com](#org8c2c700)
-        1.  [原文](#org371c444)
-    3.  [三角形指引](#orga3ec05b)
-        1.  [原文](#org002e6ce)
-7.  [双重和三重锯齿形](#org1a4edff)
-    1.  [双重和三重锯齿形规则](#orgf08f4e4)
-        1.  [原文](#orgb0767d1)
-    2.  [双重和三重锯齿形指引](#org1afcf3f)
-        1.  [原文](#org5ac31e1)
-8.  [双重和三重横向调整形](#org4e190ca)
-    1.  [双重和三重横向调整形规则](#org2bc2764)
-    2.  [以下规则来自uuxp.com](#orgea39826)
-        1.  [原文](#org913e6d2)
-    3.  [双重和三重横向调整形指引](#orge441189)
-    4.  [以下指引来自uuxp.com](#org5a359a3)
-        1.  [原文](#org87ff17c)
-9.  [其他](#org3f7315d)
-    1.  [斐波那契数列日](#org52fd071)
+    1.  [前言](#org8621b14)
+        1.  [一些感悟](#org5088cef)
+        2.  [分析5步法](#org66feef2)
+1.  [General Rules 总则](#org9159b5f)
+    1.  [总则](#org8495c73)
+        1.  [原文](#orgbf031fc)
+    2.  [名词解释](#org761de71)
+2.  [推动浪](#orgacb2ddb)
+    1.  [推动浪规则](#orgb5b1c9e)
+    2.  [以下规则来自uuxp.com](#org0ac2670)
+        1.  [原文](#org5e75f6f)
+    3.  [推动浪指引](#orga71ae58)
+    4.  [以下指引来自uuxp.com](#org0f2ee89)
+        1.  [原文](#orgd784f36)
+3.  [楔形](#org8c7edc3)
+    1.  [楔形规则](#org8f789ce)
+    2.  [以下规则来自uuxp.com](#org771b774)
+        1.  [原文](#org58b5320)
+    3.  [楔形指引](#orgf9b6846)
+    4.  [以下指引来自uuxp.com](#orgd4a8620)
+        1.  [原文](#org58a5370)
+4.  [锯齿形](#org14400a1)
+    1.  [锯齿形规则](#orgadad74f)
+    2.  [以下规则来自uuxp.com](#org63f133f)
+        1.  [原文](#org9d81fea)
+    3.  [锯齿形指引](#org0e359c1)
+    4.  [以下指引来自uuxp.com](#org4b0c0c1)
+        1.  [原文](#org9f14b26)
+5.  [平台形](#org2ecdff8)
+    1.  [平台型规则](#org5ead5f2)
+    2.  [以下规则来自uuxp.com](#orgf2c7703)
+        1.  [原文](#org5ef3eda)
+    3.  [平台型指引](#orgbfd7be8)
+    4.  [以下指引来自uuxp.com](#org4c4ccd4)
+        1.  [原文](#org58e9628)
+6.  [三角形](#orgc4f3c4d)
+    1.  [三角形规则](#org4b14bbe)
+    2.  [以下规则来自uuxp.com](#org6ec9629)
+        1.  [原文](#orgabebc9f)
+    3.  [三角形指引](#org6984edf)
+        1.  [原文](#org6547e59)
+7.  [双重和三重锯齿形](#orgf9b75df)
+    1.  [双重和三重锯齿形规则](#org96d4bb6)
+        1.  [原文](#org893c381)
+    2.  [双重和三重锯齿形指引](#org59da7d1)
+        1.  [原文](#org94d9b74)
+8.  [双重和三重横向调整形](#org6803351)
+    1.  [双重和三重横向调整形规则](#orgc0d0cbf)
+    2.  [以下规则来自uuxp.com](#orgfa6cf65)
+        1.  [原文](#org90e7521)
+    3.  [双重和三重横向调整形指引](#orgf16c7a5)
+    4.  [以下指引来自uuxp.com](#orgf153d16)
+        1.  [原文](#org13e263a)
+9.  [其他](#orgea66d80)
+    1.  [斐波那契数列日](#org30be03e)
 
 
 
-<a id="orgc365602"></a>
+<a id="org8621b14"></a>
 
 ## 前言
 
@@ -75,7 +75,7 @@ categories: ["Invest"]
 > 译一下，一方面是把文字翻译成按照自己习惯的方式，另一方面是提高对波浪理论的理解。  
 
 
-<a id="orga7f321b"></a>
+<a id="org5088cef"></a>
 
 ### 一些感悟
 
@@ -92,7 +92,7 @@ categories: ["Invest"]
 > 战略上藐视敌人，但是前提是战术上优于敌人，所以投资是技术和心态的纠缠式交错提升过程，技术可以别人教，心态必须自己投入后才能体会。  
 
 
-<a id="orga04ed7b"></a>
+<a id="org66feef2"></a>
 
 ### 分析5步法
 
@@ -103,14 +103,14 @@ categories: ["Invest"]
 5.  看均线（1D，1W）
 
 
-<a id="org8d11230"></a>
+<a id="org9159b5f"></a>
 
 # General Rules 总则
 
-![img](/img/waves/wave-all.png)  
+![img](./img/waves/wave-all.png)  
 
 
-<a id="org3e42a71"></a>
+<a id="org8495c73"></a>
 
 ## 总则
 
@@ -121,7 +121,7 @@ categories: ["Invest"]
 > 但是，指引（Guidelines）不一定要遵守。埃利奥特模式遵守的指引（Guidelines）越多，其评级或正确的概率就越高。  
 
 
-<a id="org85bd642"></a>
+<a id="orgbf031fc"></a>
 
 ### 原文
 
@@ -130,7 +130,7 @@ categories: ["Invest"]
 > However, the Guidelines do not have to be obeyed. The more Guidelines obeyed by an Elliott pattern, the higher its rating or probability of being correct.  
 
 
-<a id="org13ba8e3"></a>
+<a id="org761de71"></a>
 
 ## 名词解释
 
@@ -156,14 +156,14 @@ categories: ["Invest"]
 > 推动浪和楔形总称为驱动浪。  
 
 
-<a id="org1e1648c"></a>
+<a id="orgacb2ddb"></a>
 
 # 推动浪
 
-![img](/img/waves/wave-impulse.png)  
+![img](./img/waves/wave-impulse.png)  
 
 
-<a id="org33e31be"></a>
+<a id="orgb5b1c9e"></a>
 
 ## 推动浪规则
 
@@ -200,15 +200,15 @@ categories: ["Invest"]
 > -   浪5没有最小的时间限制。
 
 
-<a id="orga48f079"></a>
+<a id="org0ac2670"></a>
 
-## 以下规则来自uuxp.com<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+## 以下规则来自uuxp.com
 
 > -   出现在更大级别波浪的1、3、5、锯齿和平台调整浪的C、锯齿形调整浪的A等位置
 > -   浪2不能为水平三角形
 
 
-<a id="org8177aa1"></a>
+<a id="org5e75f6f"></a>
 
 ### 原文
 
@@ -247,7 +247,7 @@ categories: ["Invest"]
 > -   Wave 5 has no minimum time constraint.
 
 
-<a id="org38aed18"></a>
+<a id="orga71ae58"></a>
 
 ## 推动浪指引
 
@@ -287,11 +287,11 @@ categories: ["Invest"]
 > -   第5浪的长度按时间计算通常小于浪3的4倍。
 
 
-<a id="org9bd733e"></a>
+<a id="org0f2ee89"></a>
 
 ## 以下指引来自uuxp.com
 
-![img](/img/waves/wave-failed5.png)  
+![img](./img/waves/wave-failed5.png)  
 
 > -   延长浪1、3、5经常会有一个波浪出现延长，而且仅有一个波浪延长；浪3是最易延长的波浪，浪3也常常是最长的波浪。延长浪也可以再包括延长浪。股票市场浪3延长常见，期货或商品市场浪5延长则明显多见。
 > -   延长浪与子浪的区别：没有太严谨的区别，推动浪的延长浪最多只能有一个，但子浪是全都有的而不能缺少的；延长浪看起来比较清晰，易识别，子浪一般需要到更小的周期里识别，比如日线级的波浪的子浪需要到60分钟K线里辨别，而延长浪则没必要。
@@ -299,7 +299,7 @@ categories: ["Invest"]
 > -   衰竭：浪五通常在超强的浪三之后出现衰竭，也就是浪5终点达不到浪3的终点。衰竭不常见，尤其是在稍大的浪级里，不要随便将波浪认作衰竭的浪五，浪五总是5浪结构，这与调整浪的B浪是不同的。
 
 
-<a id="org526a8fe"></a>
+<a id="orgd784f36"></a>
 
 ### 原文
 
@@ -340,20 +340,20 @@ categories: ["Invest"]
 > • Wave 5 is usually less than 4 times length of Wave 3 by time.  
 
 
-<a id="org5b391bc"></a>
+<a id="org8c7edc3"></a>
 
-# 楔形<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>
+# 楔形<sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 
-![img](/img/waves/wave-edld.png)  
+![img](./img/waves/wave-edld.png)  
 
 
-<a id="org4e79ee2"></a>
+<a id="org8f789ce"></a>
 
 ## 楔形规则
 
 > LD = Leading Diagonal 引导楔形  
 > ED = Ending Diagonal 终结楔形  
-> 楔形是一种常见的5浪推动形态，标示为1-2-3-4-5，随着大的趋势移动。楔形是在两个通道线内移动，从第1浪到第3浪和第2浪到第4浪，楔形必须是收敛的<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>。  
+> 楔形是一种常见的5浪推动形态，标示为1-2-3-4-5，随着大的趋势移动。楔形是在两个通道线内移动，从第1浪到第3浪和第2浪到第4浪，楔形必须是收敛的<sup><a id="fnr.3" class="footref" href="#fn.3">3</a></sup>。  
 > 有两种类型的楔形；引导楔形和终结楔形。它们的内部结构不同，在大一级别的浪中，它们的出现的位置不同。终结楔形比引导楔形更常见。常常由于先前的浪走的“太快太远了”。  
 > 
 > -   引导楔形的第1波必须是一个推动浪或者或引导楔形。
@@ -364,7 +364,7 @@ categories: ["Invest"]
 > -   终结楔形的浪3必须是锯齿形族类（单、双、三锯齿）的形态。
 > -   浪3的价格必须大于浪2。
 > -   浪4可以是任何调整浪。
-> -   波2和波4必须有重叠，如果不重叠，可以考虑是推动浪<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>，重叠长度长度在浪3的10%以内，所有内部数据点都要考虑。
+> -   波2和波4必须有重叠，如果不重叠，可以考虑是推动浪<sup><a id="fnr.4" class="footref" href="#fn.4">4</a></sup>，重叠长度长度在浪3的10%以内，所有内部数据点都要考虑。
 > -   浪4的时间必须是浪2的10%到10倍之间。
 > -   终结楔形的第5波必须是锯齿形族类。
 > -   引导楔形的浪5必须是推动浪或终结楔形。
@@ -380,7 +380,7 @@ categories: ["Invest"]
 > -   浪5的运行时间最小为浪4的10%，最大为浪3的5倍。
 
 
-<a id="orgac16558"></a>
+<a id="org771b774"></a>
 
 ## 以下规则来自uuxp.com
 
@@ -391,7 +391,7 @@ categories: ["Invest"]
 > -   ED的五个子浪均为调整浪（3-3-3-3-3）；LD的1、3、5子浪均为驱动浪，2、4为调整浪（5-3-5-3-5）
 
 
-<a id="orgd4e57fc"></a>
+<a id="org58b5320"></a>
 
 ### 原文
 
@@ -427,7 +427,7 @@ categories: ["Invest"]
 > • The minimum time for Wave 5 is 10% of Wave 4. The maximum time for Wave 5 is 5 times Wave 3.  
 
 
-<a id="org6a24ca0"></a>
+<a id="orgf9b6846"></a>
 
 ## 楔形指引
 
@@ -444,7 +444,7 @@ categories: ["Invest"]
 > -   终结楔形的浪5结束时超过通道线是比较典型的。
 
 
-<a id="org736b94c"></a>
+<a id="orgd4a8620"></a>
 
 ## 以下指引来自uuxp.com
 
@@ -456,7 +456,7 @@ categories: ["Invest"]
 > -   LD非常罕见，不要轻易作为首选波浪，而浪3延长则更常见，此时延长浪迅速简洁，这与LD的浪5是不一样的，LD的浪5走势缓慢拖延。
 
 
-<a id="orge1b8fad"></a>
+<a id="org58a5370"></a>
 
 ### 原文
 
@@ -473,14 +473,14 @@ categories: ["Invest"]
 > • It is typical for Wave 5 of an ED to exceed the channel line.  
 
 
-<a id="orgb412fe3"></a>
+<a id="org14400a1"></a>
 
 # 锯齿形
 
-![img](/img/waves/wave-zigzag.png)  
+![img](./img/waves/wave-zigzag.png)  
 
 
-<a id="org8504ee1"></a>
+<a id="orgadad74f"></a>
 
 ## 锯齿形规则
 
@@ -499,7 +499,7 @@ categories: ["Invest"]
 > -   C浪的价格或时间不能超过A浪或B浪的10倍。
 
 
-<a id="orge24ecbf"></a>
+<a id="org63f133f"></a>
 
 ## 以下规则来自uuxp.com
 
@@ -507,7 +507,7 @@ categories: ["Invest"]
 > -   单锯齿形分为ABC三个子浪，B为调整浪，AC为驱动浪，AC不能同时为楔形
 
 
-<a id="org9a92406"></a>
+<a id="org9d81fea"></a>
 
 ### 原文
 
@@ -526,7 +526,7 @@ categories: ["Invest"]
 > • Wave C must be no more than 10 times either Wave A or B in price or time.  
 
 
-<a id="org373a5f9"></a>
+<a id="org0e359c1"></a>
 
 ## 锯齿形指引
 
@@ -548,7 +548,7 @@ categories: ["Invest"]
 > -   浪C所占用的时间通常是浪A的61.8%到浪A和浪B中最短浪的161.8%之间。
 
 
-<a id="orga249355"></a>
+<a id="org4b0c0c1"></a>
 
 ## 以下指引来自uuxp.com
 
@@ -557,7 +557,7 @@ categories: ["Invest"]
 > -   双（或三）锯齿形常形成一个运行通道
 
 
-<a id="org377670a"></a>
+<a id="org9f14b26"></a>
 
 ### 原文
 
@@ -580,14 +580,14 @@ categories: ["Invest"]
 > • The time taken by Wave C is usually between 61.8% of Wave A and 161.8% of the shortest Wave of A and B.  
 
 
-<a id="org2b8c4dc"></a>
+<a id="org2ecdff8"></a>
 
 # 平台形
 
-![img](/img/waves/wave-flat.png)  
+![img](./img/waves/wave-flat.png)  
 
 
-<a id="org8a5c11a"></a>
+<a id="org5ead5f2"></a>
 
 ## 平台型规则
 
@@ -607,7 +607,7 @@ categories: ["Invest"]
 > -   浪A没有最短的时间限制。
 
 
-<a id="org2c87539"></a>
+<a id="orgf2c7703"></a>
 
 ## 以下规则来自uuxp.com
 
@@ -615,7 +615,7 @@ categories: ["Invest"]
 > -   分为ABC三个子浪，AB为调整浪，C为驱动浪
 
 
-<a id="org14b47ee"></a>
+<a id="org5ef3eda"></a>
 
 ### 原文
 
@@ -635,7 +635,7 @@ categories: ["Invest"]
 > • There is no minimum time constrains for Wave A.  
 
 
-<a id="org245b806"></a>
+<a id="orgbfd7be8"></a>
 
 ## 平台型指引
 
@@ -656,10 +656,10 @@ categories: ["Invest"]
 > -   浪C往往不超过浪A或浪B最长浪的140%。
 > -   如果浪C比浪B长，那么浪C往往超出浪A的重点A\*61．8%。
 > -   如果浪C比浪B长，那么按价格计算，浪C往往是A浪的161.8%左右，从B浪的末端开始计算。
-> -   浪C所耗费的时间一般在浪A<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>的61.8%到浪A和浪B中最短浪的161.8%之间。
+> -   浪C所耗费的时间一般在浪A<sup><a id="fnr.5" class="footref" href="#fn.5">5</a></sup>的61.8%到浪A和浪B中最短浪的161.8%之间。
 
 
-<a id="org3bab178"></a>
+<a id="org4c4ccd4"></a>
 
 ## 以下指引来自uuxp.com
 
@@ -671,7 +671,7 @@ categories: ["Invest"]
 > -   规则平台型调整出现在浪4的几率比浪2要大，特别是在趋势中期，其中浪B的回撤几乎和浪A的起点相同，或略低于浪A，浪C的幅度也基本与浪A相同，平台型调整的回撤幅度往往结束于前期推动浪幅度的38.2%而很少超过50%，浪B很少达不到浪A幅度的61.8%，浪C的幅度范围在浪A的1.236—1.382倍之间,三个浪在运行的时间上基本相同的，有时浪C的运行时间会比前两浪长，浪C低点的预测可以利用通道线测量。
 
 
-<a id="org54d3edb"></a>
+<a id="org58e9628"></a>
 
 ### 原文
 
@@ -696,15 +696,15 @@ categories: ["Invest"]
 > • The time taken by Wave C is generally between 61.8% of Wave 1 to 161.8% of the shortest of Waves A and B.  
 
 
-<a id="orged3b041"></a>
+<a id="orgc4f3c4d"></a>
 
 # 三角形
 
-![img](/img/waves/wave-tria.png)  
-![img](/img/waves/wave-triah.png)  
+![img](./img/waves/wave-tria.png)  
+![img](./img/waves/wave-triah.png)  
 
 
-<a id="org71e5975"></a>
+<a id="org4b14bbe"></a>
 
 ## 三角形规则
 
@@ -740,7 +740,7 @@ categories: ["Invest"]
 > -   通道线与形态的交点的最大数量为6。
 
 
-<a id="org8c2c700"></a>
+<a id="org6ec9629"></a>
 
 ## 以下规则来自uuxp.com
 
@@ -754,7 +754,7 @@ categories: ["Invest"]
 > -   顺势三角形（奔走形）：子浪B的终点超过子浪A的起点，暗示强势调整。
 
 
-<a id="org371c444"></a>
+<a id="orgabebc9f"></a>
 
 ### 原文
 
@@ -789,7 +789,7 @@ categories: ["Invest"]
 > • The maximum number of pattern lengths into the future that the channel lines intersect is 6.  
 
 
-<a id="orga3ec05b"></a>
+<a id="org6984edf"></a>
 
 ## 三角形指引
 
@@ -806,7 +806,7 @@ categories: ["Invest"]
 > -   在收敛三角形中，E浪通常会回溯到D浪的70%左右。
 
 
-<a id="org002e6ce"></a>
+<a id="org6547e59"></a>
 
 ### 原文
 
@@ -824,14 +824,14 @@ categories: ["Invest"]
 > • In a CT, Wave E normally retraces Wave D by about 70%.  
 
 
-<a id="org1a4edff"></a>
+<a id="orgf9b75df"></a>
 
 # 双重和三重锯齿形
 
-![img](/img/waves/wave-DZTZ.png)  
+![img](./img/waves/wave-DZTZ.png)  
 
 
-<a id="orgf08f4e4"></a>
+<a id="org96d4bb6"></a>
 
 ## 双重和三重锯齿形规则
 
@@ -860,7 +860,7 @@ categories: ["Invest"]
 > -   浪Z在价格和时间上必须不超过浪XX、Y、X或W中任何一浪的5倍，即允许价格和时间一项超过，不允许两项都超过。
 
 
-<a id="orgb0767d1"></a>
+<a id="org893c381"></a>
 
 ### 原文
 
@@ -889,7 +889,7 @@ categories: ["Invest"]
 > • Wave Z must be no more than a 5 times either Waves XX, Y, X or W in both price and time.  
 
 
-<a id="org1afcf3f"></a>
+<a id="org59da7d1"></a>
 
 ## 双重和三重锯齿形指引
 
@@ -901,7 +901,7 @@ categories: ["Invest"]
 > -   浪X接下来最有可能回撤浪W的50%。
 > -   浪X接下来最有可能回撤浪W的61.8%。
 > -   按价格计算，浪X的最大子浪通常小于浪W的140%。
-> -   浪X的时间通常在浪W<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>的61.8%到161.8%之间。
+> -   浪X的时间通常在浪W<sup><a id="fnr.6" class="footref" href="#fn.6">6</a></sup>的61.8%到161.8%之间。
 > -   按价格计算，浪Y最倾向于浪W的61.8%或161.8%。
 > -   预期浪Y运行时间在浪W的61.8%，以及浪W和浪X中最短一浪的161.8%之间。
 > -   浪XX通常是锯齿形族类。
@@ -916,7 +916,7 @@ categories: ["Invest"]
 > -   按价格计算，浪Z的最大子浪通常小于浪Y。
 
 
-<a id="org5ac31e1"></a>
+<a id="org94d9b74"></a>
 
 ### 原文
 
@@ -944,14 +944,14 @@ categories: ["Invest"]
 > • The largest Wave in Wave Z is usually less than Wave Y by price.  
 
 
-<a id="org4e190ca"></a>
+<a id="org6803351"></a>
 
 # 双重和三重横向调整形
 
-![img](/img/waves/wave-D3T3.png)  
+![img](./img/waves/wave-D3T3.png)  
 
 
-<a id="org2bc2764"></a>
+<a id="orgc0d0cbf"></a>
 
 ## 双重和三重横向调整形规则
 
@@ -979,7 +979,7 @@ categories: ["Invest"]
 > -   如果浪Y的价格大于W浪的价格，则浪Z的价格最大为浪W的2倍。
 
 
-<a id="orgea39826"></a>
+<a id="orgfa6cf65"></a>
 
 ## 以下规则来自uuxp.com
 
@@ -987,7 +987,7 @@ categories: ["Invest"]
 > -   双重三浪为W-X-Y，三重三浪为W-X-Y-X-Z；W为除三角形及联合形之外的调整浪，X为调整浪（最后一个X浪可以为水平三角形），YZ都是除联合形外的调整浪（处于大级别4浪处的联合形调整浪的最后一个作用浪可以为水平三角形）
 
 
-<a id="org913e6d2"></a>
+<a id="org90e7521"></a>
 
 ### 原文
 
@@ -1014,7 +1014,7 @@ categories: ["Invest"]
 > • If Wave Y is greater than Wave W by price, then the maximum Wave Z price movement is twice the price movement of Wave W.  
 
 
-<a id="orge441189"></a>
+<a id="orgf16c7a5"></a>
 
 ## 双重和三重横向调整形指引
 
@@ -1034,19 +1034,19 @@ categories: ["Invest"]
 > -   按价格计算，浪XX通常小于Y浪的140%。
 > -   浪XX的价格通常大于Y浪的95%。
 > -   浪XX最可能的回撤浪Y的110%。
-> -   如果浪Y是一个三角形，那么浪Y最可能的长度约为浪W的61.8%；如果浪Y不是三角形，最可能的长度为浪W的100%，161.8%，和超出浪W终点的W\*10%，按照价格计算。<sup><a id="fnr.8" class="footref" href="#fn.8">8</a></sup>
+> -   如果浪Y是一个三角形，那么浪Y最可能的长度约为浪W的61.8%；如果浪Y不是三角形，最可能的长度为浪W的100%，161.8%，和超出浪W终点的W\*10%，按照价格计算。<sup><a id="fnr.7" class="footref" href="#fn.7">7</a></sup>
 > -   按价格计算，浪Z的最大子浪通常小于浪Y的140%。
 > -   按价格计算，浪Z的长度通常小于浪Y和浪XX中较长浪的2倍。
 
 
-<a id="org5a359a3"></a>
+<a id="orgf153d16"></a>
 
 ## 以下指引来自uuxp.com
 
 > -   浪W都调整足够的幅度，其余浪仅仅是增加调整时间。
 
 
-<a id="org87ff17c"></a>
+<a id="org13e263a"></a>
 
 ### 原文
 
@@ -1072,17 +1072,17 @@ categories: ["Invest"]
 > • Wave Z is usually less than twice the longest of Wave Y and Wave XX.  
 
 
-<a id="org3f7315d"></a>
+<a id="orgea66d80"></a>
 
 # 其他
 
 
-<a id="org52fd071"></a>
+<a id="org30be03e"></a>
 
 ## 斐波那契数列日
 
-![img](/img/waves/wave-fibday-1.png)  
-![img](/img/waves/wave-fibday-2.png)  
+![img](./img/waves/wave-fibday-1.png)  
+![img](./img/waves/wave-fibday-2.png)  
 
 > 规律是  
 > 
@@ -1101,16 +1101,14 @@ categories: ["Invest"]
 
 <sup><a id="fn.1" href="#fnr.1">1</a></sup> : [司南投资网](http://www.chnstock.com)
 
-<sup><a id="fn.2" href="#fnr.2">2</a></sup> : <http://www.uuxp.com/>
+<sup><a id="fn.2" href="#fnr.2">2</a></sup> : 楔形的版面在平台型和三角形之间，楔形和推动浪为驱动浪，所以为了分类方便，放在此处。如果有不理解的浪型类别，可以先学习三角形、平台形和锯齿形族类调整浪的内容。
 
-<sup><a id="fn.3" href="#fnr.3">3</a></sup> : 楔形的版面在平台型和三角形之间，楔形和推动浪为驱动浪，所以为了分类方便，放在此处。如果有不理解的浪型类别，可以先学习三角形、平台形和锯齿形族类调整浪的内容。
+<sup><a id="fn.3" href="#fnr.3">3</a></sup> : 此处存疑，现实中是存在扩张楔形的，原文没有提出。
 
-<sup><a id="fn.4" href="#fnr.4">4</a></sup> : 此处存疑，现实中是存在扩张楔形的，原文没有提出。
+<sup><a id="fn.4" href="#fnr.4">4</a></sup> : 原文无推动浪的阐述；
 
-<sup><a id="fn.5" href="#fnr.5">5</a></sup> : 原文无推动浪的阐述；
+<sup><a id="fn.5" href="#fnr.5">5</a></sup> : 原文为浪1，应为浪A。
 
-<sup><a id="fn.6" href="#fnr.6">6</a></sup> : 原文为浪1，应为浪A。
+<sup><a id="fn.6" href="#fnr.6">6</a></sup> : 原文为浪1，应为浪W。
 
-<sup><a id="fn.7" href="#fnr.7">7</a></sup> : 原文为浪1，应为浪W。
-
-<sup><a id="fn.8" href="#fnr.8">8</a></sup> : 原文描写的是Y和W的关系，似乎和前面重复，此处应为Z和Y的关系。
+<sup><a id="fn.7" href="#fnr.7">7</a></sup> : 原文描写的是Y和W的关系，似乎和前面重复，此处应为Z和Y的关系。
