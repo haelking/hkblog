@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Henry King</copyright>
-    <lastBuildDate>Wed, 13 May 2020 23:45:23 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 15:15:23 +0800</lastBuildDate>
     
 	<atom:link href="/tags/btc/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>TA</title>
+      <link>/ta/</link>
+      <pubDate>Sat, 16 May 2020 15:15:23 +0800</pubDate>
+      
+      <guid>/ta/</guid>
+      <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
+    </item>
     
     <item>
       <title>Elliott Waves</title>
@@ -19,15 +28,6 @@
       
       <guid>/post/waves/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>TA</title>
-      <link>/ta/</link>
-      <pubDate>Sun, 10 May 2020 23:45:23 +0800</pubDate>
-      
-      <guid>/ta/</guid>
-      <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
     </item>
     
   </channel>
