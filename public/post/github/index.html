@@ -17,7 +17,7 @@ Github备份
 
 
 
-<meta name="generator" content="Hugo 0.70.0" />
+<meta name="generator" content="Hugo 0.71.1" />
 
 <link rel="canonical" href="/post/github/" />
 
@@ -121,17 +121,27 @@ git push
 <pre><code>ssh -T git@github.com
 如果连不上，或者执行出错
 1. 检查端口22是否开放
-2. ~/目录内添加用户
+2. '~/' 目录内添加用户
 git config --global user.email “william.lian.fang@gmail.com”
 git config --global user.name “williamlfang”
 3. 使用443端口，在~/.ssh/config，添加:
 Host github.com
   Hostname ssh.github.com
-  Port 443'
+  Port 443
 然后执行: 
 ssh -T -p 443 git@ssh.github.com
 如果存在权限问题，执行:  
 chmod 700 ~/.ssh/id_rsa
+如果还有问题 '~/hkblog/.git/config'修改https地址为ssh地址:
+# 修改前
+[remote &quot;origin&quot;]
+	url = https://github.com/ganchaoyang/git-test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+# 修改后
+[remote &quot;origin&quot;]
+	url = git@github.com:ganchaoyang/git-test.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
 </code></pre></article>
     </section>
 
@@ -387,7 +397,7 @@ chmod 700 ~/.ssh/id_rsa
 <script src="/js/main.js"></script>
 <script src="/js/theme.js"></script>
 <script src="/js/html2canvas.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_SVG"></script>
+
 
 
   </body>

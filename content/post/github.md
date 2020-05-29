@@ -48,7 +48,7 @@ git config --global user.name “williamlfang”
 3. 使用443端口，在~/.ssh/config，添加:
 Host github.com
   Hostname ssh.github.com
-  Port 443'
+  Port 443
 然后执行: 
 ssh -T -p 443 git@ssh.github.com
 如果存在权限问题，执行:  
