@@ -170,42 +170,55 @@ I am hitesh jethva working as a technical writer.
 <pre><code>cd themes
 cd themes
 git clone https://github.com/g1eny0ung/hugo-theme-dream.git dream
-cat hugo-strata-theme/exampleSite/config.toml &gt; ../config.toml
 </code></pre><h3 id="配置主题">配置主题</h3>
 <ol>
-<li>config.toml</li>
+<li>nano ~/hkblog/config.toml</li>
 </ol>
-<pre><code>nano ../config.toml
+<pre><code>baseurl = &quot;/&quot;
+languageCode = &quot;en&quot;
+defaultContentLanguage = &quot;en&quot;
+title = &quot;Henry King's Blog&quot;
+theme = &quot;dream&quot;
 
-baseurl = &quot;/&quot;
+copyright = &quot;Henry King&quot;
 
- [[menu.main]]
-  name = &quot;About&quot;
-  url  = &quot;about&quot;
-  weight = 5
-  theme = &quot;dream&quot;
-</code></pre><ol start="2">
-<li>index.html layout</li>
-</ol>
-<pre><code>nano /root/test.example.com/layouts/index.html
+# googleAnalytics = &quot;&quot;
 
-{{ define &quot;main&quot; }}
-        {{ if not .Site.Params.about.hide }}
-                {{ partial &quot;about&quot; . }}
-        {{ end }}
+# disqusShortname = &quot;&quot;
 
-        {{ if not .Site.Params.portfolio.hide }}
-                {{ partial &quot;portfolio&quot; . }}
-        {{ end }}
+# enableRobotsTXT = true
 
-        {{ if not .Site.Params.recentposts.hide }}
-                {{ partial &quot;recent-posts&quot; . }}
-        {{ end }}
+[params]
+  background = &quot;black&quot;
+  # backgroundImage = &quot;/me/background.jpg&quot;
+  linkColor = &quot;seagreen&quot;
 
-        {{ if not .Site.Params.contact.hide }}
-                {{ partial &quot;contact&quot; . }}
-        {{ end }}
-{{ end }}
+  author = &quot;Henry King&quot;
+  # description = &quot;&quot;
+  avatar = &quot;/img/jl.jpg&quot;
+  motto = &quot;Katcoin&quot;
+
+  #email = &quot;wag@gmail.com&quot;
+  # github = &quot;&quot;
+  # linkedin = &quot;&quot;
+  # codepen = &quot;&quot;
+  # stackoverflow = &quot;&quot;
+
+  siteStartYear = 2020
+
+  # favicon = &quot;/favicon.ico&quot;
+
+  # dark mode
+  darkLinkColor = &quot;darkseagreen&quot;
+  darkNav = true
+  dark404Button = true
+
+
+[taxonomies]
+  tag = &quot;tags&quot;
+  series = &quot;series&quot;
+  category = &quot;categories&quot;
+
 </code></pre><h2 id="生成网站">生成网站</h2>
 <pre><code>cd ~/hkblog
 hugo

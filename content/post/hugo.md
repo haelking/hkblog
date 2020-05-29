@@ -106,42 +106,55 @@ I am hitesh jethva working as a technical writer.
 cd themes
 cd themes
 git clone https://github.com/g1eny0ung/hugo-theme-dream.git dream
-cat hugo-strata-theme/exampleSite/config.toml > ../config.toml
 ```
 ### 配置主题
-1. config.toml
+1. nano ~/hkblog/config.toml
 ```
-nano ../config.toml
-
 baseurl = "/"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Henry King's Blog"
+theme = "dream"
 
- [[menu.main]]
-  name = "About"
-  url  = "about"
-  weight = 5
-  theme = "dream"
-```
-2. index.html layout
-```
-nano /root/test.example.com/layouts/index.html
+copyright = "Henry King"
 
-{{ define "main" }}
-        {{ if not .Site.Params.about.hide }}
-                {{ partial "about" . }}
-        {{ end }}
+# googleAnalytics = ""
 
-        {{ if not .Site.Params.portfolio.hide }}
-                {{ partial "portfolio" . }}
-        {{ end }}
+# disqusShortname = ""
 
-        {{ if not .Site.Params.recentposts.hide }}
-                {{ partial "recent-posts" . }}
-        {{ end }}
+# enableRobotsTXT = true
 
-        {{ if not .Site.Params.contact.hide }}
-                {{ partial "contact" . }}
-        {{ end }}
-{{ end }}
+[params]
+  background = "black"
+  # backgroundImage = "/me/background.jpg"
+  linkColor = "seagreen"
+
+  author = "Henry King"
+  # description = ""
+  avatar = "/img/jl.jpg"
+  motto = "Katcoin"
+
+  #email = "wag@gmail.com"
+  # github = ""
+  # linkedin = ""
+  # codepen = ""
+  # stackoverflow = ""
+
+  siteStartYear = 2020
+
+  # favicon = "/favicon.ico"
+
+  # dark mode
+  darkLinkColor = "darkseagreen"
+  darkNav = true
+  dark404Button = true
+
+
+[taxonomies]
+  tag = "tags"
+  series = "series"
+  category = "categories"
+
 ```
 ## 生成网站
 ```
