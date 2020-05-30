@@ -26,7 +26,7 @@ git remote add origin https://github.com/haelking/hkblog.git
 
 如果出现错误：fatal: remote origin already exists，则执行以下语句：
 git remote rm origin
-git push origin master
+git push -u origin master
 如果出现错误，则
 git pull origin master
 ## push
@@ -34,7 +34,7 @@ cd /var/www/hkblog
 
 git add .
 git commit -m "all"
-git push 
+git push -u origin master # 第一次加-u后，后续可以使用git push
 也可以把上述三个语句写入push.sh中执行，要chmod +x push.sh
 ```
 ## ssh错误
