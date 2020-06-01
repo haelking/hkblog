@@ -47,7 +47,7 @@ hkblog.201682.xyz
         clone_args --recursive
         pull_args --recurse-submodules
         key /var/www/.ssh/id_rsa
-        hook /webhook labatkuji
+        hook /webhook lab****** 
         then hugo --source=/var/www/hkblog/ --destination=/var/www/hkblog/public
         hook_type github
         interval 600
