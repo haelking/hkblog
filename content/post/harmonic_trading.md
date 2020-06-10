@@ -1,6 +1,6 @@
 --- 
 title: "Harmonic Trader" 
-date: 2020-06-10T23:45:23+08:00 
+date: 2020-06-10T23:55:23+08:00 
 draft: false
 tags: ["BTC"]
 series: ["Harmony"]
@@ -21,7 +21,7 @@ categories: ["Invest"]
 ### 分析6步法
 
 1.  画通道
-2.  看形态
+2.  看加特利形态
 3.  画前一级浪（1W）
 4.  画现有浪（4h，1D图，1W图）及子浪(5m或者1h图)
 5.  看成交量和MFI、OBV，MACD指标
