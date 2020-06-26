@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Henry King</copyright>
-    <lastBuildDate>Wed, 10 Jun 2020 23:55:23 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 10:45:23 +0800</lastBuildDate>
     
 	<atom:link href="/categories/invest/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Elliott Waves</title>
+      <link>/post/waves/</link>
+      <pubDate>Fri, 26 Jun 2020 10:45:23 +0800</pubDate>
+      
+      <guid>/post/waves/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Harmonic Trader</title>
@@ -28,15 +37,6 @@
       
       <guid>/ta/</guid>
       <description>&lt;h1 id=&#34;technical-analysis&#34;&gt;Technical Analysis&lt;/h1&gt;</description>
-    </item>
-    
-    <item>
-      <title>Elliott Waves</title>
-      <link>/post/waves/</link>
-      <pubDate>Wed, 13 May 2020 23:45:23 +0800</pubDate>
-      
-      <guid>/post/waves/</guid>
-      <description></description>
     </item>
     
   </channel>

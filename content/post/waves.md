@@ -1,6 +1,6 @@
 --- 
 title: "Elliott Waves" 
-date: 2020-05-13T23:45:23+08:00 
+date: 2020-06-26T10:45:23+08:00 
 draft: false
 tags: ["BTC"]
 series: ["Waves"]
